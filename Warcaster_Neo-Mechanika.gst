@@ -59,6 +59,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8bf9-705e-901a-098b" type="min"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry id="fa79-7113-8f14-037f" name="Attachments" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="9d06-65d5-e823-50f0" name="Skirmish" hidden="false">

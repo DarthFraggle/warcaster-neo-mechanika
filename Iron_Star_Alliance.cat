@@ -329,7 +329,7 @@
         <infoLink id="cc1f-b353-42a4-97ec" name="Lock Down" hidden="false" targetId="c5f2-b7a9-63fd-e500" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8aa8-8ca8-2479-ee56" name="New CategoryLink" hidden="false" targetId="63b7-c3cd-7f99-1cf0" primary="true"/>
+        <categoryLink id="2abb-9d50-7e33-9012" name="New CategoryLink" hidden="false" targetId="fa79-7113-8f14-037f" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
