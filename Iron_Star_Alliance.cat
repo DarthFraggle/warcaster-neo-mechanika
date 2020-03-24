@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="ac83-1714-49af-721e" name="Iron Star Alliance" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6e64-0ab9-a430-a976" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="b0e6-c6b9-4e6f-7c99" name="Firebrand" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84c7-d422-97cc-d54e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="fa52-ce31-ede4-ef37" name="Morningstar" hidden="false" typeId="cc59-e7be-6377-2748" typeName="Warjack">
+          <characteristics>
+            <characteristic name="SPD" typeId="1413-5833-1ac4-364e">6</characteristic>
+            <characteristic name="STR" typeId="ef6f-3951-7724-cbd5">5</characteristic>
+            <characteristic name="MAT" typeId="7b76-af98-bb5a-e1c9">4</characteristic>
+            <characteristic name="RAT" typeId="eb8d-8cbf-bb66-554b">4</characteristic>
+            <characteristic name="DEF" typeId="b6f0-5339-fc72-593e">3</characteristic>
+            <characteristic name="ARM" typeId="ab4f-1ee8-5665-cc9a">5</characteristic>
+            <characteristic name="DMG" typeId="5361-e1ee-3259-4c39">4</characteristic>
+            <characteristic name="CST" typeId="c638-3794-83aa-d72a">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fa88-3cb5-68d1-23a5" name="Impulse Reciprocator (Spike)" hidden="false" targetId="45b4-f347-8366-5808" type="rule"/>
+        <infoLink id="875e-6dd8-e989-1d51" name="Range Amplifier (Charge)" hidden="false" targetId="e532-a22c-5f39-54d3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8d39-c278-3279-6dd9" name="Units" hidden="false" targetId="63b7-c3cd-7f99-1cf0" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0720-5cb6-f228-c3f1" name="Left Arm" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58a9-090f-fc21-9e93" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4ac6-5150-7286-2ac0" name="Assault Rifle &amp; Bayonet" hidden="false" collective="false" import="true" targetId="6cad-6f61-b590-c013" type="selectionEntry"/>
+            <entryLink id="db08-84df-00c6-8c48" name="Fusion Glaive" hidden="false" collective="false" import="true" targetId="4554-80a3-b43a-0949" type="selectionEntry"/>
+            <entryLink id="a1fb-0e79-c7ea-a32f" name="Repulsor Shield" hidden="false" collective="false" import="true" targetId="620f-eebd-5682-893a" type="selectionEntry"/>
+            <entryLink id="b87b-7017-cf69-951f" name="Force Hammer" hidden="false" collective="false" import="true" targetId="cbaf-82ac-8c76-cc9b" type="selectionEntry"/>
+            <entryLink id="8f45-e6db-3474-34ef" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="37f3-9d01-47ec-d8b5" type="selectionEntry"/>
+            <entryLink id="4c5f-9ea8-f7b3-2a61" name="Sun Piercer" hidden="false" collective="false" import="true" targetId="4e81-8cb8-1c9e-53aa" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="de73-1e78-7fe9-3438" name="Shoulder" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0834-1390-cc27-03fe" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="612e-bfcb-095f-8c2b" name="Null Cannon" hidden="false" collective="false" import="true" targetId="a3b7-d885-c0ce-0023" type="selectionEntry"/>
+            <entryLink id="d858-baef-8489-f38b" name="Harbinger Cannon" hidden="false" collective="false" import="true" targetId="1470-2f06-63ec-db51" type="selectionEntry"/>
+            <entryLink id="ec1e-25ec-4a5b-79bd" name="Immolator" hidden="false" collective="false" import="true" targetId="a180-ac56-f460-8709" type="selectionEntry"/>
+            <entryLink id="4dfa-2d21-938c-7395" name="Maelstrom" hidden="false" collective="false" import="true" targetId="305e-5126-08bb-0ec7" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c9a8-e08a-e9bf-28af" name="Cortex" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1678-4fec-85fb-a126" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8699-638b-7c1c-27a9" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="47b5-af54-cff7-eb45" name="&apos;Jack Hunter" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="7447-05d3-15a0-dec8" name="&apos;Jack Hunter (Spike)" hidden="false" targetId="43d0-e95c-e7b5-3bb3" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1c69-57b5-febc-1904" name="Reflex Cortex" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="d598-89a9-6ea5-a297" name="Heightened Reflexes" hidden="false" targetId="4eaf-902d-3737-14fe" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="289c-48cb-0dd8-7ae2" name="Neural Web" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="178c-bd13-2738-1c9c" name="Neural Web" hidden="false" targetId="a862-92a3-7800-6e64" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0def-32f7-1811-5018" name="Recon Cortex" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="1b6f-af8f-19ee-bb14" name="Pathfinder" hidden="false" targetId="2060-8a7e-1170-aae4" type="rule"/>
+                <infoLink id="6739-8248-f169-8411" name="Revelator" hidden="false" targetId="c8f4-25c2-f013-c8b2" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f78a-b678-4af4-9050" name="Right Arm" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4581-06e7-081b-836c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a28d-0060-7aa7-a849" name="Assault Rifle &amp; Bayonet" hidden="false" collective="false" import="true" targetId="6cad-6f61-b590-c013" type="selectionEntry"/>
+            <entryLink id="335e-fe4b-6787-90db" name="Fusion Glaive" hidden="false" collective="false" import="true" targetId="4554-80a3-b43a-0949" type="selectionEntry"/>
+            <entryLink id="1d33-2493-d060-b947" name="Repulsor Shield" hidden="false" collective="false" import="true" targetId="620f-eebd-5682-893a" type="selectionEntry"/>
+            <entryLink id="e197-e768-a92e-31d1" name="Force Hammer" hidden="false" collective="false" import="true" targetId="cbaf-82ac-8c76-cc9b" type="selectionEntry"/>
+            <entryLink id="4ccd-19c4-95b8-8fc3" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="37f3-9d01-47ec-d8b5" type="selectionEntry"/>
+            <entryLink id="2b5a-422d-82b4-eb09" name="Sun Piercer" hidden="false" collective="false" import="true" targetId="4e81-8cb8-1c9e-53aa" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bdd8-99b0-f98b-92b5" name="Paladin Enforcers" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6b9-cc8f-46c5-619a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="cf0d-64a6-1b8c-69a1" name="Paladin Enforcers" hidden="false" typeId="ee5b-45d6-6439-5c83" typeName="Squad">
+          <characteristics>
+            <characteristic name="SPD" typeId="63e0-b44a-50f3-5d3f">6</characteristic>
+            <characteristic name="MAT" typeId="0a8b-a206-4acf-92ae">3</characteristic>
+            <characteristic name="RAT" typeId="d86f-3c79-7c50-0502">3</characteristic>
+            <characteristic name="DEF" typeId="d2bf-4ab1-bbd1-c53d">3</characteristic>
+            <characteristic name="ARM" typeId="df58-c0c5-6903-dd53">3</characteristic>
+            <characteristic name="NUM" typeId="cc5f-a02a-8153-9031">3</characteristic>
+            <characteristic name="CST" typeId="403d-0963-ce1f-565d">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4824-a6bc-f7d0-8dbc" name="Compound Armor" hidden="false" targetId="17ec-c1b8-c3fb-459f" type="rule"/>
+        <infoLink id="5007-fbc6-b28d-101f" name="Divination Lock (Spike)" hidden="false" targetId="4e5f-ca6e-a6ae-da51" type="rule"/>
+        <infoLink id="842e-db5c-bc71-cb48" name="Reflex Accelerator (Charge)" hidden="false" targetId="2cb7-ba4d-ce4d-4e27" type="rule"/>
+        <infoLink id="3d24-f87e-9ec1-bce8" name="Assault Rifle" hidden="false" targetId="a669-670b-4692-9886" type="profile"/>
+        <infoLink id="c7d2-a4a3-7dd4-b222" name="Bayonet" hidden="false" targetId="d5e7-173e-2edd-379f" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7e6c-5716-7eb5-a2f6" name="New CategoryLink" hidden="false" targetId="63b7-c3cd-7f99-1cf0" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="95c1-7e10-92f0-8d01" name="Paladin Weaver" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="797a-aa21-289a-a4bd" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="80dd-89c0-7940-6a2a" name="Paladin Weaver" hidden="false" typeId="5643-55ad-cf84-ac2a" typeName="Solo">
+          <characteristics>
+            <characteristic name="SPD" typeId="e7f7-8a52-6885-3006">6</characteristic>
+            <characteristic name="MAT" typeId="b4d4-69fe-dd8c-7c12">3</characteristic>
+            <characteristic name="RAT" typeId="3127-5d41-efdc-a87d">3</characteristic>
+            <characteristic name="DEF" typeId="8355-c44c-010d-9a88">3</characteristic>
+            <characteristic name="ARM" typeId="d0c1-80eb-f256-6b2f">3</characteristic>
+            <characteristic name="FOC" typeId="b34d-3c07-68b0-ec80">4</characteristic>
+            <characteristic name="DMG" typeId="76be-0810-d006-512c">2</characteristic>
+            <characteristic name="CST" typeId="50cb-a3c5-93ef-21c0">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6f69-6f53-1dfe-b255" name="Arc Relay (12)" hidden="false" targetId="3ed5-a2a6-44a7-9c1d" type="rule"/>
+        <infoLink id="473a-1e4d-8c2d-6ff9" name="Arcantrik Amplifier (Charge)" hidden="false" targetId="a4ab-9b99-4e38-42f9" type="rule"/>
+        <infoLink id="8a55-b781-f91d-5650" name="Compound Armor" hidden="false" targetId="17ec-c1b8-c3fb-459f" type="rule"/>
+        <infoLink id="0600-c1f3-45a2-51af" name="Realignment Codex (Spike)" hidden="false" targetId="c9e6-a3b3-fe05-7295" type="rule"/>
+        <infoLink id="839d-24d3-e9ab-36d8" name="Null Strike" hidden="false" targetId="f174-cd6d-3802-1cbc" type="rule"/>
+        <infoLink id="60ef-771d-9fca-cc8e" name="Handgun" hidden="false" targetId="fa30-c94b-dcf7-e67e" type="profile"/>
+        <infoLink id="db79-0c3e-92d5-4299" name="Null Hammer" hidden="false" targetId="b8e5-a35e-a3f3-26c5" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cbd3-737f-486a-35d9" name="New CategoryLink" hidden="false" targetId="63b7-c3cd-7f99-1cf0" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4df4-16e0-ff6f-8689" name="Paladin Commander" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ac0-8d89-3861-57fd" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c7f7-731e-963d-9a0c" name="Paladin Commander" hidden="false" typeId="5643-55ad-cf84-ac2a" typeName="Solo">
+          <characteristics>
+            <characteristic name="SPD" typeId="e7f7-8a52-6885-3006">6</characteristic>
+            <characteristic name="MAT" typeId="b4d4-69fe-dd8c-7c12">4</characteristic>
+            <characteristic name="RAT" typeId="3127-5d41-efdc-a87d">4</characteristic>
+            <characteristic name="DEF" typeId="8355-c44c-010d-9a88">3</characteristic>
+            <characteristic name="ARM" typeId="d0c1-80eb-f256-6b2f">3</characteristic>
+            <characteristic name="FOC" typeId="b34d-3c07-68b0-ec80">-</characteristic>
+            <characteristic name="DMG" typeId="76be-0810-d006-512c">2</characteristic>
+            <characteristic name="CST" typeId="50cb-a3c5-93ef-21c0">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="29a0-dc88-3bb3-f65e" name="Command Interface (Paladin) (Spike)" hidden="false" targetId="f617-cd36-a4f8-cd90" type="rule"/>
+        <infoLink id="a715-b364-df53-d99c" name="Compound Armor" hidden="false" targetId="17ec-c1b8-c3fb-459f" type="rule"/>
+        <infoLink id="5e58-02ab-1b86-0f67" name="Reflex Accelerator (Charge)" hidden="false" targetId="2cb7-ba4d-ce4d-4e27" type="rule"/>
+        <infoLink id="57af-a5ac-e5a4-ce2d" name="Fusion Sword" hidden="false" targetId="da37-9cac-c150-96b5" type="profile"/>
+        <infoLink id="f9cf-890b-d64f-d404" name="Pulse Cannon" hidden="false" targetId="9828-e26b-6ead-00a8" type="profile"/>
+        <infoLink id="1448-8908-21f3-5cb2" name="Blast Weapon" hidden="false" targetId="4478-b4bd-42be-09e2" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="31b5-c729-f820-8ee8" name="New CategoryLink" hidden="false" targetId="63b7-c3cd-7f99-1cf0" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ecd9-2168-517a-5943" name="Morningstar" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d17-a133-9540-331f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d90c-38e0-8911-7c66" name="Firebrand" hidden="false" typeId="cc59-e7be-6377-2748" typeName="Warjack">
+          <characteristics>
+            <characteristic name="SPD" typeId="1413-5833-1ac4-364e">6</characteristic>
+            <characteristic name="STR" typeId="ef6f-3951-7724-cbd5">4</characteristic>
+            <characteristic name="MAT" typeId="7b76-af98-bb5a-e1c9">4</characteristic>
+            <characteristic name="RAT" typeId="eb8d-8cbf-bb66-554b">4</characteristic>
+            <characteristic name="DEF" typeId="b6f0-5339-fc72-593e">3</characteristic>
+            <characteristic name="ARM" typeId="ab4f-1ee8-5665-cc9a">3</characteristic>
+            <characteristic name="DMG" typeId="5361-e1ee-3259-4c39">3</characteristic>
+            <characteristic name="CST" typeId="c638-3794-83aa-d72a">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0787-4c0f-9538-1f6d" name="Force Projector (Charge)" hidden="false" targetId="ee53-15d2-f2a6-4545" type="rule"/>
+        <infoLink id="511d-5324-123c-8a4e" name="Refractor Field" hidden="false" targetId="309a-b487-006c-6310" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e85b-dfd2-324d-8c8d" name="Units" hidden="false" targetId="63b7-c3cd-7f99-1cf0" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9889-8360-79bf-946a" name="Right Arm" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b52-fea5-1509-16a6" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="dcd9-bba8-e8ff-aac3" name="Seeker" hidden="false" collective="false" import="true" targetId="9986-5dd0-9ee1-8d53" type="selectionEntry"/>
+            <entryLink id="6822-dd9b-a13a-e76a" name="Heavy Fusion Glaive" hidden="false" collective="false" import="true" targetId="d567-ff1c-0c77-e2c3" type="selectionEntry"/>
+            <entryLink id="95d7-8fd4-a81e-7375" name="Assault Shield" hidden="false" collective="false" import="true" targetId="5d55-430b-40c5-d090" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0951-86b4-60a0-82b3" name="Right Shoulder" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90d0-c6ec-1ebf-92cf" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="cc39-fe2b-2502-66fd" name="Null Cannon" hidden="false" collective="false" import="true" targetId="a3b7-d885-c0ce-0023" type="selectionEntry"/>
+            <entryLink id="3e7a-2fc0-ab33-f507" name="Harbinger Cannon" hidden="false" collective="false" import="true" targetId="1470-2f06-63ec-db51" type="selectionEntry"/>
+            <entryLink id="fcd0-ff2b-c2af-7684" name="Starburst Missiles" hidden="false" collective="false" import="true" targetId="6485-a0c6-16ce-6791" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ea42-bd1f-8b22-2d66" name="Cortex" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f915-8a30-1dc0-1901" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2ec-0fce-4864-6517" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1f7a-2fc6-99d9-0ccd" name="Deadeye Cortex" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="0b40-a41d-928c-4b2a" name="Revelator" hidden="false" targetId="c8f4-25c2-f013-c8b2" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="de8f-09f2-fc7b-f87b" name="Defender" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="7319-3fac-efce-6de3" name="Intercept Driver (Spike)" hidden="false" targetId="ec44-3a92-93db-2564" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="de3f-8c8d-3413-c383" name="Left Arm" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba96-560b-79d3-ad36" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3c0a-c28c-928d-7707" name="Seeker" hidden="false" collective="false" import="true" targetId="9986-5dd0-9ee1-8d53" type="selectionEntry"/>
+            <entryLink id="90cb-ca1c-1697-732a" name="Heavy Fusion Glaive" hidden="false" collective="false" import="true" targetId="d567-ff1c-0c77-e2c3" type="selectionEntry"/>
+            <entryLink id="6ad8-4ba0-5368-d5cc" name="Assault Shield" hidden="false" collective="false" import="true" targetId="5d55-430b-40c5-d090" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9b1d-6a12-d45b-eeed" name="Left Shoulder" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1dc-9922-b061-0652" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="90ba-ef89-3a25-77ca" name="Null Cannon" hidden="false" collective="false" import="true" targetId="a3b7-d885-c0ce-0023" type="selectionEntry"/>
+            <entryLink id="8f6b-b821-74b5-78e0" name="Harbinger Cannon" hidden="false" collective="false" import="true" targetId="1470-2f06-63ec-db51" type="selectionEntry"/>
+            <entryLink id="49d9-fd22-1f69-f8de" name="Starburst Missiles" hidden="false" collective="false" import="true" targetId="6485-a0c6-16ce-6791" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8e55-b58c-569a-ef97" name="Paladin Aegis" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd1a-7a3f-d88c-ff2e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="db9e-a008-4094-9db8" name="Paladin Aegis" hidden="false" typeId="ee5b-45d6-6439-5c83" typeName="Squad">
+          <characteristics>
+            <characteristic name="SPD" typeId="63e0-b44a-50f3-5d3f">*</characteristic>
+            <characteristic name="MAT" typeId="0a8b-a206-4acf-92ae">3</characteristic>
+            <characteristic name="RAT" typeId="d86f-3c79-7c50-0502">3</characteristic>
+            <characteristic name="DEF" typeId="d2bf-4ab1-bbd1-c53d">3</characteristic>
+            <characteristic name="ARM" typeId="df58-c0c5-6903-dd53">3</characteristic>
+            <characteristic name="NUM" typeId="cc5f-a02a-8153-9031">1</characteristic>
+            <characteristic name="CST" typeId="403d-0963-ce1f-565d">+1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="48cb-b1cd-4347-85fc" name="Compound Armor" hidden="false" targetId="17ec-c1b8-c3fb-459f" type="rule"/>
+        <infoLink id="f132-338a-e01f-e34c" name="Force Field (Charge)" hidden="false" targetId="cfe1-9227-7692-7b68" type="rule"/>
+        <infoLink id="30f9-9604-4d81-ae85" name="Attachment (Paladin)" hidden="false" targetId="d921-b7e2-3db0-7b0c" type="rule"/>
+        <infoLink id="4b92-7be2-cdda-ac7b" name="Force Generator" hidden="false" targetId="45f8-4b97-fbe2-b4f7" type="profile"/>
+        <infoLink id="7b05-8023-0a3a-687a" name="Force Ram (Spike)" hidden="false" targetId="c2f8-48d9-d6ed-1bdf" type="rule"/>
+        <infoLink id="cc1f-b353-42a4-97ec" name="Lock Down" hidden="false" targetId="c5f2-b7a9-63fd-e500" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8aa8-8ca8-2479-ee56" name="New CategoryLink" hidden="false" targetId="63b7-c3cd-7f99-1cf0" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b723-e423-c97d-0324" name="Paladin Annihilators" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dee-33b2-3050-5d26" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2897-21f1-a8d3-3381" name="Paladin Annihilators" hidden="false" typeId="ee5b-45d6-6439-5c83" typeName="Squad">
+          <characteristics>
+            <characteristic name="SPD" typeId="63e0-b44a-50f3-5d3f">4</characteristic>
+            <characteristic name="MAT" typeId="0a8b-a206-4acf-92ae">3</characteristic>
+            <characteristic name="RAT" typeId="d86f-3c79-7c50-0502">3</characteristic>
+            <characteristic name="DEF" typeId="d2bf-4ab1-bbd1-c53d">3</characteristic>
+            <characteristic name="ARM" typeId="df58-c0c5-6903-dd53">3</characteristic>
+            <characteristic name="NUM" typeId="cc5f-a02a-8153-9031">3</characteristic>
+            <characteristic name="CST" typeId="403d-0963-ce1f-565d">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e99f-5164-46cf-e19a" name="Compound Armor" hidden="false" targetId="17ec-c1b8-c3fb-459f" type="rule"/>
+        <infoLink id="9cf8-e0a0-49a6-ffaa" name="Smart Lock (Charge)" hidden="false" targetId="6e59-f079-4476-730f" type="rule"/>
+        <infoLink id="7281-5616-be1c-b0e1" name="Hunter-Killer Rounds (Spike)" hidden="false" targetId="cb00-7571-a4fd-84d6" type="rule"/>
+        <infoLink id="3b94-c824-268b-d930" name="Harbinger Cannon" hidden="false" targetId="34fc-3815-d467-5147" type="profile"/>
+        <infoLink id="e446-29cd-3d3e-a581" name="Bayonet" hidden="false" targetId="d5e7-173e-2edd-379f" type="profile"/>
+        <infoLink id="f537-55a5-aa12-abd3" name="Strafe" hidden="false" targetId="77e6-c811-aef4-ee7f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c2ff-8a1c-d825-9e13" name="New CategoryLink" hidden="false" targetId="63b7-c3cd-7f99-1cf0" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4a46-184d-1976-cacc" name="Justicar Voss" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="44e0-f554-d4a6-ec0d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2f3c-6004-a7b5-7c1b" name="Justicar Voss" hidden="false" typeId="5643-55ad-cf84-ac2a" typeName="Solo">
+          <characteristics>
+            <characteristic name="SPD" typeId="e7f7-8a52-6885-3006">7</characteristic>
+            <characteristic name="MAT" typeId="b4d4-69fe-dd8c-7c12">5</characteristic>
+            <characteristic name="RAT" typeId="3127-5d41-efdc-a87d">3</characteristic>
+            <characteristic name="DEF" typeId="8355-c44c-010d-9a88">4</characteristic>
+            <characteristic name="ARM" typeId="d0c1-80eb-f256-6b2f">3</characteristic>
+            <characteristic name="FOC" typeId="b34d-3c07-68b0-ec80">-</characteristic>
+            <characteristic name="DMG" typeId="76be-0810-d006-512c">3</characteristic>
+            <characteristic name="CST" typeId="50cb-a3c5-93ef-21c0">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d00d-3203-97f1-2e58" name="Arc Blade" hidden="false" targetId="a3fe-e59d-e3af-c0fd" type="profile"/>
+        <infoLink id="bb92-d3fa-4fbf-bdf7" name="Arc Blade" hidden="false" targetId="a3fe-e59d-e3af-c0fd" type="profile"/>
+        <infoLink id="9568-7a4c-1ac5-93e1" name="Compound Armor" hidden="false" targetId="17ec-c1b8-c3fb-459f" type="rule"/>
+        <infoLink id="52f1-946b-080f-c5fe" name="Relentless" hidden="false" targetId="fd08-4038-ea78-bdd4" type="rule"/>
+        <infoLink id="bf87-d63d-15fa-0621" name="Void Shifter (Charge)" hidden="false" targetId="a368-0229-d52b-99db" type="rule"/>
+        <infoLink id="a791-2022-c4c8-4138" name="Void Jumper (Spike)" hidden="false" targetId="8f06-26c7-6306-c0b7" type="rule"/>
+        <infoLink id="cca3-1c38-4c3a-1bdc" name="Weapon Expert" hidden="false" targetId="ed37-1d75-e270-e479" type="rule"/>
+        <infoLink id="ff79-4439-358f-7c53" name="Attack Mode (Arc Blades)" hidden="false" targetId="c4ab-5e42-23af-4af5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5c1a-9072-c0a4-d58e" name="New CategoryLink" hidden="false" targetId="cc26-f6fc-643b-1352" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="7416-4cde-e073-481e" name="Cyphers" hidden="false" collective="false" import="true" targetId="3961-255e-7446-6cc4" type="selectionEntry"/>
+    <entryLink id="76c2-fc93-08bd-252d" name="Baron Cassius Mooregrave" hidden="false" collective="false" import="true" targetId="06b9-ea95-5cd2-5bd2" type="selectionEntry"/>
+    <entryLink id="219d-2dda-4024-16ed" name="Voitek Sudal, Bounty Hunter" hidden="false" collective="false" import="true" targetId="d57b-15ce-482f-c16c" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="620f-eebd-5682-893a" name="Repulsor Shield" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="450e-2127-e609-37c6" name="Repulsor Shield (Spike)" hidden="false" targetId="8d87-7a73-e467-d6cd" type="rule"/>
+        <infoLink id="63d3-0f6d-ffcb-20fa" name="Shield" hidden="false" targetId="ced4-3c62-3606-31ca" type="rule"/>
+        <infoLink id="a486-ca92-bcf5-9ded" name="Repulsor Shield" hidden="false" targetId="ec42-ff05-a4f4-2c0a" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4554-80a3-b43a-0949" name="Fusion Glaive" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2415-e5a7-49a7-0c0d" name="Power Attack (Spike)" hidden="false" targetId="f45d-f7bc-3379-d648" type="rule"/>
+        <infoLink id="4209-f542-5dc8-fa2e" name="Fusion Glaive" hidden="false" targetId="c07f-caf7-6a51-a23e" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6cad-6f61-b590-c013" name="Assault Rifle &amp; Bayonet" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="08de-62a5-f0d5-de17" name="Assault Rifle" hidden="false" targetId="a669-670b-4692-9886" type="profile"/>
+        <infoLink id="75de-3196-98cd-f2f7" name="Bayonet" hidden="false" targetId="d5e7-173e-2edd-379f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1470-2f06-63ec-db51" name="Harbinger Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1b0f-a528-b42f-c992" name="Hunter-Killer Rounds (Spike)" hidden="false" targetId="cb00-7571-a4fd-84d6" type="rule"/>
+        <infoLink id="09f5-f9e1-b259-1319" name="Strafe" hidden="false" targetId="77e6-c811-aef4-ee7f" type="rule"/>
+        <infoLink id="3b7f-2042-b0ce-5253" name="Harbinger Cannon" hidden="false" targetId="34fc-3815-d467-5147" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a3b7-d885-c0ce-0023" name="Null Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="37a0-7360-0ff9-a1f9" name="Null Strike" hidden="false" targetId="f174-cd6d-3802-1cbc" type="rule"/>
+        <infoLink id="f6c5-5e27-f390-6d9c" name="Null Cannon" hidden="false" targetId="060f-6de4-deeb-6f29" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6485-a0c6-16ce-6791" name="Starburst Missiles" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="564a-df0b-c67a-a8cf" name="Starburst Missiles" hidden="false" targetId="07a0-694d-2123-77ca" type="profile"/>
+        <infoLink id="354d-f0e4-9c8c-d21b" name="Targeter (Charge)" hidden="false" targetId="1891-8584-c483-7085" type="rule"/>
+        <infoLink id="2d1a-ec6c-644a-716d" name="Blast Weapon" hidden="false" targetId="4478-b4bd-42be-09e2" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9986-5dd0-9ee1-8d53" name="Seeker" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e547-6c73-46ac-3bb5" name="Seeker" hidden="false" targetId="057e-0ae4-283d-49f7" type="profile"/>
+        <infoLink id="4e37-13f9-95a1-787e" name="Targeter (Charge)" hidden="false" targetId="1891-8584-c483-7085" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5d55-430b-40c5-d090" name="Assault Shield" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="dac3-776f-1327-0d24" name="Assault Shield" hidden="false" targetId="dd1a-a06d-d223-1974" type="profile"/>
+        <infoLink id="f3df-ac9f-d83f-2598" name="Shield" hidden="false" targetId="ced4-3c62-3606-31ca" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d567-ff1c-0c77-e2c3" name="Heavy Fusion Glaive" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="76e7-cf63-e1ad-d293" name="Power Attack (Spike)" hidden="false" targetId="f45d-f7bc-3379-d648" type="rule"/>
+        <infoLink id="07e2-0aa9-fc0f-f6a4" name="Heavy Fusion Glaive" hidden="false" targetId="8dcb-ab78-c63a-4774" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="305e-5126-08bb-0ec7" name="Maelstrom" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="01a2-65e6-1d2e-cc82" name="Maelstrom" hidden="false" targetId="25a1-6d64-56c1-aacb" type="profile"/>
+        <infoLink id="a3d0-ef6c-bd14-1514" name="Defense Matrix (Charge)" hidden="false" targetId="834a-f198-e6c0-5923" type="rule"/>
+        <infoLink id="1704-0f12-1cb0-70d2" name="Spray Weapon" hidden="false" targetId="c56a-eb04-a80f-be7d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a180-ac56-f460-8709" name="Immolator" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6cd6-e5e1-4d3f-f431" name="Immolator" hidden="false" targetId="7c53-c70a-1c43-026e" type="profile"/>
+        <infoLink id="792c-66ae-1b8f-c32d" name="Fire" hidden="false" targetId="c2c4-1eac-f24e-09f5" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4e81-8cb8-1c9e-53aa" name="Sun Piercer" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0893-95ef-17f6-9577" name="Sun Piercer" hidden="false" targetId="7072-d46a-3c10-146e" type="profile"/>
+        <infoLink id="8b61-3b82-9641-4714" name="High Intensity (Charge)" hidden="false" targetId="b3c5-5b94-5cca-52ed" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="37f3-9d01-47ec-d8b5" name="Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2a37-da8a-33ec-3d1d" name="Grenade Launcher" hidden="false" targetId="ef30-bca6-f0f8-e006" type="profile"/>
+        <infoLink id="6499-a1c1-b12d-1b01" name="Blast Weapon" hidden="false" targetId="4478-b4bd-42be-09e2" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cbaf-82ac-8c76-cc9b" name="Force Hammer" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1f67-89e2-4e02-7ba3" name="Force Hammer" hidden="false" targetId="9081-2e7b-50a4-a7bf" type="profile"/>
+        <infoLink id="568b-2b8d-a74b-8695" name="Repulsor" hidden="false" targetId="83ee-82fd-698b-c4e6" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="a669-670b-4692-9886" name="Assault Rifle" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+      <characteristics>
+        <characteristic name="DMG" typeId="bd77-31aa-5209-2b6c">Ballistic</characteristic>
+        <characteristic name="TYP" typeId="684a-ebe0-b4ae-1d02">Ranged</characteristic>
+        <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">12</characteristic>
+        <characteristic name="POW" typeId="9750-e740-35f4-1cf6">4</characteristic>
+        <characteristic name="Rules" typeId="b9f6-e564-4386-9830"/>
+      </characteristics>
+    </profile>
+    <profile id="d5e7-173e-2edd-379f" name="Bayonet" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+      <characteristics>
+        <characteristic name="DMG" typeId="bd77-31aa-5209-2b6c">Kinetic</characteristic>
+        <characteristic name="TYP" typeId="684a-ebe0-b4ae-1d02">Melee</characteristic>
+        <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">1</characteristic>
+        <characteristic name="POW" typeId="9750-e740-35f4-1cf6">3</characteristic>
+        <characteristic name="Rules" typeId="b9f6-e564-4386-9830"/>
+      </characteristics>
+    </profile>
+    <profile id="c07f-caf7-6a51-a23e" name="Fusion Glaive" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+      <characteristics>
+        <characteristic name="DMG" typeId="bd77-31aa-5209-2b6c">Kinetic</characteristic>
+        <characteristic name="TYP" typeId="684a-ebe0-b4ae-1d02">Melee</characteristic>
+        <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">1</characteristic>
+        <characteristic name="POW" typeId="9750-e740-35f4-1cf6">5</characteristic>
+        <characteristic name="Rules" typeId="b9f6-e564-4386-9830">Power Attack (Spike)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="34fc-3815-d467-5147" name="Harbinger Cannon" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+      <characteristics>
+        <characteristic name="DMG" typeId="bd77-31aa-5209-2b6c">Ballistic</characteristic>
+        <characteristic name="TYP" typeId="684a-ebe0-b4ae-1d02">Ranged</characteristic>
+        <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">12</characteristic>
+        <characteristic name="POW" typeId="9750-e740-35f4-1cf6">4</characteristic>
+        <characteristic name="Rules" typeId="b9f6-e564-4386-9830">Hunter-Killer Rounds (Spike), Strafe</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="060f-6de4-deeb-6f29" name="Null Cannon" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+      <characteristics>
+        <characteristic name="DMG" typeId="bd77-31aa-5209-2b6c">Energy</characteristic>
+        <characteristic name="TYP" typeId="684a-ebe0-b4ae-1d02">Ranged</characteristic>
+        <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">14</characteristic>
+        <characteristic name="POW" typeId="9750-e740-35f4-1cf6">5</characteristic>
+        <characteristic name="Rules" typeId="b9f6-e564-4386-9830">Null Strike</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ec42-ff05-a4f4-2c0a" name="Repulsor Shield" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+      <characteristics>
+        <characteristic name="DMG" typeId="bd77-31aa-5209-2b6c">Force</characteristic>
+        <characteristic name="TYP" typeId="684a-ebe0-b4ae-1d02">Melee</characteristic>
+        <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">1</characteristic>
+        <characteristic name="POW" typeId="9750-e740-35f4-1cf6">2</characteristic>
+        <characteristic name="Rules" typeId="b9f6-e564-4386-9830">Repulsor Ram (Spike), Shield</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="da37-9cac-c150-96b5" name="Fusion Sword" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+      <characteristics>
+        <characteristic name="DMG" typeId="bd77-31aa-5209-2b6c">Kinetic</characteristic>
+        <characteristic name="TYP" typeId="684a-ebe0-b4ae-1d02">Melee</characteristic>
+        <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">1</characteristic>
+        <characteristic name="POW" typeId="9750-e740-35f4-1cf6">4</characteristic>
+        <characteristic name="Rules" typeId="b9f6-e564-4386-9830"/>
+      </characteristics>
+    </profile>
+    <profile id="9828-e26b-6ead-00a8" name="Pulse Cannon" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+      <characteristics>
+        <characteristic name="DMG" typeId="bd77-31aa-5209-2b6c">Explosion and Force</characteristic>
+        <characteristic name="TYP" typeId="684a-ebe0-b4ae-1d02">Ranged</characteristic>
+        <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">10</characteristic>
+        <characteristic name="POW" typeId="9750-e740-35f4-1cf6">3</characteristic>
+        <characteristic name="Rules" typeId="b9f6-e564-4386-9830">Blast Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fa30-c94b-dcf7-e67e" name="Handgun" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+      <characteristics>
+        <characteristic name="DMG" typeId="bd77-31aa-5209-2b6c">Ballistic</characteristic>
+        <characteristic name="TYP" typeId="684a-ebe0-b4ae-1d02">Ranged</characteristic>
+        <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">8</characteristic>
+        <characteristic name="POW" typeId="9750-e740-35f4-1cf6">3</characteristic>
+        <characteristic name="Rules" typeId="b9f6-e564-4386-9830"/>
+      </characteristics>
+    </profile>
+    <profile id="b8e5-a35e-a3f3-26c5" name="Null Hammer" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+      <characteristics>
+        <characteristic name="DMG" typeId="bd77-31aa-5209-2b6c">Kinetic</characteristic>
+        <characteristic name="TYP" typeId="684a-ebe0-b4ae-1d02">Melee</characteristic>
+        <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">1</characteristic>
+        <characteristic name="POW" typeId="9750-e740-35f4-1cf6">4</characteristic>
+        <characteristic name="Rules" typeId="b9f6-e564-4386-9830">Null Strike</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="dd1a-a06d-d223-1974" name="Assault Shield" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+      <characteristics>
+        <characteristic name="DMG" typeId="bd77-31aa-5209-2b6c">Kinetic</characteristic>
+        <characteristic name="TYP" typeId="684a-ebe0-b4ae-1d02">Melee</characteristic>
+        <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">1</characteristic>
+        <characteristic name="POW" typeId="9750-e740-35f4-1cf6">4</characteristic>
+        <characteristic name="Rules" typeId="b9f6-e564-4386-9830">Shield</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8dcb-ab78-c63a-4774" name="Heavy Fusion Glaive" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+      <characteristics>
+        <characteristic name="DMG" typeId="bd77-31aa-5209-2b6c">Kinetic</characteristic>
+        <characteristic name="TYP" typeId="684a-ebe0-b4ae-1d02">Melee</characteristic>
+        <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">1</characteristic>
+        <characteristic name="POW" typeId="9750-e740-35f4-1cf6">6</characteristic>
+        <characteristic name="Rules" typeId="b9f6-e564-4386-9830">Power Attack (Spike)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="057e-0ae4-283d-49f7" name="Seeker" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+      <characteristics>
+        <characteristic name="DMG" typeId="bd77-31aa-5209-2b6c">Ballistic</characteristic>
+        <characteristic name="TYP" typeId="684a-ebe0-b4ae-1d02">Ranged</characteristic>
+        <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">12</characteristic>
+        <characteristic name="POW" typeId="9750-e740-35f4-1cf6">3</characteristic>
+        <characteristic name="Rules" typeId="b9f6-e564-4386-9830">Targeter (Charge)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="07a0-694d-2123-77ca" name="Starburst Missiles" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+      <characteristics>
+        <characteristic name="DMG" typeId="bd77-31aa-5209-2b6c">Ballistic and Explosive</characteristic>
+        <characteristic name="TYP" typeId="684a-ebe0-b4ae-1d02">Ranged</characteristic>
+        <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">14</characteristic>
+        <characteristic name="POW" typeId="9750-e740-35f4-1cf6">4</characteristic>
+        <characteristic name="Rules" typeId="b9f6-e564-4386-9830">Targeter (Charge)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="45f8-4b97-fbe2-b4f7" name="Force Generator" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+      <characteristics>
+        <characteristic name="DMG" typeId="bd77-31aa-5209-2b6c">Force</characteristic>
+        <characteristic name="TYP" typeId="684a-ebe0-b4ae-1d02">Ranged</characteristic>
+        <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">12</characteristic>
+        <characteristic name="POW" typeId="9750-e740-35f4-1cf6">3</characteristic>
+        <characteristic name="Rules" typeId="b9f6-e564-4386-9830">Force Ram (Spike), Lock Down</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a3fe-e59d-e3af-c0fd" name="Arc Blade" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+      <characteristics>
+        <characteristic name="DMG" typeId="bd77-31aa-5209-2b6c">Kinetic</characteristic>
+        <characteristic name="TYP" typeId="684a-ebe0-b4ae-1d02">Melee</characteristic>
+        <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">1</characteristic>
+        <characteristic name="POW" typeId="9750-e740-35f4-1cf6">5</characteristic>
+        <characteristic name="Rules" typeId="b9f6-e564-4386-9830">Attack Mode (Arc Blade)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9081-2e7b-50a4-a7bf" name="Force Hammer" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+      <characteristics>
+        <characteristic name="DMG" typeId="bd77-31aa-5209-2b6c">Force</characteristic>
+        <characteristic name="TYP" typeId="684a-ebe0-b4ae-1d02">Melee</characteristic>
+        <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">1</characteristic>
+        <characteristic name="POW" typeId="9750-e740-35f4-1cf6">3</characteristic>
+        <characteristic name="Rules" typeId="b9f6-e564-4386-9830">Repulsor</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ef30-bca6-f0f8-e006" name="Grenade Launcher" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+      <characteristics>
+        <characteristic name="DMG" typeId="bd77-31aa-5209-2b6c">Ballistic and Explosion</characteristic>
+        <characteristic name="TYP" typeId="684a-ebe0-b4ae-1d02">Ranged</characteristic>
+        <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">1</characteristic>
+        <characteristic name="POW" typeId="9750-e740-35f4-1cf6">3</characteristic>
+        <characteristic name="Rules" typeId="b9f6-e564-4386-9830">Blast Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7072-d46a-3c10-146e" name="Sun Piercer" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+      <characteristics>
+        <characteristic name="DMG" typeId="bd77-31aa-5209-2b6c">Beam</characteristic>
+        <characteristic name="TYP" typeId="684a-ebe0-b4ae-1d02">Ranged</characteristic>
+        <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">8</characteristic>
+        <characteristic name="POW" typeId="9750-e740-35f4-1cf6">1</characteristic>
+        <characteristic name="Rules" typeId="b9f6-e564-4386-9830">High Intensity (Charge)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7c53-c70a-1c43-026e" name="Immolator" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+      <characteristics>
+        <characteristic name="DMG" typeId="bd77-31aa-5209-2b6c">Energy</characteristic>
+        <characteristic name="TYP" typeId="684a-ebe0-b4ae-1d02">Ranged</characteristic>
+        <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">16</characteristic>
+        <characteristic name="POW" typeId="9750-e740-35f4-1cf6">5</characteristic>
+        <characteristic name="Rules" typeId="b9f6-e564-4386-9830">Fire</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="25a1-6d64-56c1-aacb" name="Maelstrom" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+      <characteristics>
+        <characteristic name="DMG" typeId="bd77-31aa-5209-2b6c">Beam</characteristic>
+        <characteristic name="TYP" typeId="684a-ebe0-b4ae-1d02">Ranged</characteristic>
+        <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">10</characteristic>
+        <characteristic name="POW" typeId="9750-e740-35f4-1cf6">4</characteristic>
+        <characteristic name="Rules" typeId="b9f6-e564-4386-9830">Defense Matrix (Charge), Spray</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
