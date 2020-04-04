@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ac83-1714-49af-721e" name="Iron Star Alliance" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6e64-0ab9-a430-a976" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ac83-1714-49af-721e" name="Iron Star Alliance" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="6e64-0ab9-a430-a976" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b0e6-c6b9-4e6f-7c99" name="Firebrand" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -27,30 +27,6 @@
         <categoryLink id="8d39-c278-3279-6dd9" name="Units" hidden="false" targetId="63b7-c3cd-7f99-1cf0" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0720-5cb6-f228-c3f1" name="Left Arm" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58a9-090f-fc21-9e93" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="4ac6-5150-7286-2ac0" name="Assault Rifle &amp; Bayonet" hidden="false" collective="false" import="true" targetId="6cad-6f61-b590-c013" type="selectionEntry"/>
-            <entryLink id="db08-84df-00c6-8c48" name="Fusion Glaive" hidden="false" collective="false" import="true" targetId="4554-80a3-b43a-0949" type="selectionEntry"/>
-            <entryLink id="a1fb-0e79-c7ea-a32f" name="Repulsor Shield" hidden="false" collective="false" import="true" targetId="620f-eebd-5682-893a" type="selectionEntry"/>
-            <entryLink id="b87b-7017-cf69-951f" name="Force Hammer" hidden="false" collective="false" import="true" targetId="cbaf-82ac-8c76-cc9b" type="selectionEntry"/>
-            <entryLink id="8f45-e6db-3474-34ef" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="37f3-9d01-47ec-d8b5" type="selectionEntry"/>
-            <entryLink id="4c5f-9ea8-f7b3-2a61" name="Sun Piercer" hidden="false" collective="false" import="true" targetId="4e81-8cb8-1c9e-53aa" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="de73-1e78-7fe9-3438" name="Shoulder" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0834-1390-cc27-03fe" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="612e-bfcb-095f-8c2b" name="Null Cannon" hidden="false" collective="false" import="true" targetId="a3b7-d885-c0ce-0023" type="selectionEntry"/>
-            <entryLink id="d858-baef-8489-f38b" name="Harbinger Cannon" hidden="false" collective="false" import="true" targetId="1470-2f06-63ec-db51" type="selectionEntry"/>
-            <entryLink id="ec1e-25ec-4a5b-79bd" name="Immolator" hidden="false" collective="false" import="true" targetId="a180-ac56-f460-8709" type="selectionEntry"/>
-            <entryLink id="4dfa-2d21-938c-7395" name="Maelstrom" hidden="false" collective="false" import="true" targetId="305e-5126-08bb-0ec7" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
         <selectionEntryGroup id="c9a8-e08a-e9bf-28af" name="Cortex" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1678-4fec-85fb-a126" type="max"/>
@@ -92,18 +68,113 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="f78a-b678-4af4-9050" name="Right Arm" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="58c2-dab8-efeb-e0fd" name="Hardpoints" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4581-06e7-081b-836c" type="max"/>
+            <constraint field="ecbb-d452-36d4-0214" scope="b0e6-c6b9-4e6f-7c99" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba95-fba8-2588-ad29" type="max"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="a28d-0060-7aa7-a849" name="Assault Rifle &amp; Bayonet" hidden="false" collective="false" import="true" targetId="6cad-6f61-b590-c013" type="selectionEntry"/>
-            <entryLink id="335e-fe4b-6787-90db" name="Fusion Glaive" hidden="false" collective="false" import="true" targetId="4554-80a3-b43a-0949" type="selectionEntry"/>
-            <entryLink id="1d33-2493-d060-b947" name="Repulsor Shield" hidden="false" collective="false" import="true" targetId="620f-eebd-5682-893a" type="selectionEntry"/>
-            <entryLink id="e197-e768-a92e-31d1" name="Force Hammer" hidden="false" collective="false" import="true" targetId="cbaf-82ac-8c76-cc9b" type="selectionEntry"/>
-            <entryLink id="4ccd-19c4-95b8-8fc3" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="37f3-9d01-47ec-d8b5" type="selectionEntry"/>
-            <entryLink id="2b5a-422d-82b4-eb09" name="Sun Piercer" hidden="false" collective="false" import="true" targetId="4e81-8cb8-1c9e-53aa" type="selectionEntry"/>
-          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="9eb8-07b2-1642-dd69" name="Shoulder" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56ec-d498-c7d0-91c4" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="9702-fe91-eb56-8353" name="Null Cannon" hidden="false" collective="false" import="true" targetId="a3b7-d885-c0ce-0023" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="e772-9ee1-231f-1580" name="Harbinger Cannon" hidden="false" collective="false" import="true" targetId="1470-2f06-63ec-db51" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="38cb-d3b8-e4cb-6739" name="Immolator" hidden="false" collective="false" import="true" targetId="a180-ac56-f460-8709" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="36e9-3732-5ecc-8c0c" name="Maelstrom" hidden="false" collective="false" import="true" targetId="305e-5126-08bb-0ec7" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="2ead-ffc3-b123-a317" name="Right Arm" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a90c-366c-1032-5f6d" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="0bdf-a36a-aecb-9f8a" name="Assault Rifle &amp; Bayonet" hidden="false" collective="false" import="true" targetId="6cad-6f61-b590-c013" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="f2aa-68f5-764f-64f0" name="Fusion Glaive" hidden="false" collective="false" import="true" targetId="4554-80a3-b43a-0949" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="7ec4-f00b-f337-5f49" name="Repulsor Shield" hidden="false" collective="false" import="true" targetId="620f-eebd-5682-893a" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="d46b-f4cc-a78d-e8fd" name="Force Hammer" hidden="false" collective="false" import="true" targetId="cbaf-82ac-8c76-cc9b" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="184d-819f-8648-b2b0" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="37f3-9d01-47ec-d8b5" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="0c70-515f-7056-f1a8" name="Sun Piercer" hidden="false" collective="false" import="true" targetId="4e81-8cb8-1c9e-53aa" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="6b3c-e4b4-8886-0711" name="Left Arm" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20f0-0c87-5cea-ad66" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="d69b-6e64-a4ad-82d2" name="Assault Rifle &amp; Bayonet" hidden="false" collective="false" import="true" targetId="6cad-6f61-b590-c013" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="fa4f-b727-774b-9477" name="Fusion Glaive" hidden="false" collective="false" import="true" targetId="4554-80a3-b43a-0949" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="a6ff-9f6b-df91-847f" name="Repulsor Shield" hidden="false" collective="false" import="true" targetId="620f-eebd-5682-893a" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="df5b-5b34-d833-3ce9" name="Force Hammer" hidden="false" collective="false" import="true" targetId="cbaf-82ac-8c76-cc9b" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="5a5f-86cb-9357-685d" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="37f3-9d01-47ec-d8b5" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="4aa5-8c3d-4855-4244" name="Sun Piercer" hidden="false" collective="false" import="true" targetId="4e81-8cb8-1c9e-53aa" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -234,26 +305,6 @@
         <categoryLink id="e85b-dfd2-324d-8c8d" name="Units" hidden="false" targetId="63b7-c3cd-7f99-1cf0" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9889-8360-79bf-946a" name="Right Arm" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b52-fea5-1509-16a6" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="dcd9-bba8-e8ff-aac3" name="Seeker" hidden="false" collective="false" import="true" targetId="9986-5dd0-9ee1-8d53" type="selectionEntry"/>
-            <entryLink id="6822-dd9b-a13a-e76a" name="Heavy Fusion Glaive" hidden="false" collective="false" import="true" targetId="d567-ff1c-0c77-e2c3" type="selectionEntry"/>
-            <entryLink id="95d7-8fd4-a81e-7375" name="Assault Shield" hidden="false" collective="false" import="true" targetId="5d55-430b-40c5-d090" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="0951-86b4-60a0-82b3" name="Right Shoulder" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90d0-c6ec-1ebf-92cf" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="cc39-fe2b-2502-66fd" name="Null Cannon" hidden="false" collective="false" import="true" targetId="a3b7-d885-c0ce-0023" type="selectionEntry"/>
-            <entryLink id="3e7a-2fc0-ab33-f507" name="Harbinger Cannon" hidden="false" collective="false" import="true" targetId="1470-2f06-63ec-db51" type="selectionEntry"/>
-            <entryLink id="fcd0-ff2b-c2af-7684" name="Starburst Missiles" hidden="false" collective="false" import="true" targetId="6485-a0c6-16ce-6791" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
         <selectionEntryGroup id="ea42-bd1f-8b22-2d66" name="Cortex" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f915-8a30-1dc0-1901" type="max"/>
@@ -278,25 +329,100 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="de3f-8c8d-3413-c383" name="Left Arm" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3c26-7ab2-d581-eb3d" name="Hardpoints" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba96-560b-79d3-ad36" type="max"/>
+            <constraint field="ecbb-d452-36d4-0214" scope="ecd9-2168-517a-5943" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32e4-113c-d186-2e07" type="max"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="3c0a-c28c-928d-7707" name="Seeker" hidden="false" collective="false" import="true" targetId="9986-5dd0-9ee1-8d53" type="selectionEntry"/>
-            <entryLink id="90cb-ca1c-1697-732a" name="Heavy Fusion Glaive" hidden="false" collective="false" import="true" targetId="d567-ff1c-0c77-e2c3" type="selectionEntry"/>
-            <entryLink id="6ad8-4ba0-5368-d5cc" name="Assault Shield" hidden="false" collective="false" import="true" targetId="5d55-430b-40c5-d090" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="9b1d-6a12-d45b-eeed" name="Left Shoulder" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1dc-9922-b061-0652" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="90ba-ef89-3a25-77ca" name="Null Cannon" hidden="false" collective="false" import="true" targetId="a3b7-d885-c0ce-0023" type="selectionEntry"/>
-            <entryLink id="8f6b-b821-74b5-78e0" name="Harbinger Cannon" hidden="false" collective="false" import="true" targetId="1470-2f06-63ec-db51" type="selectionEntry"/>
-            <entryLink id="49d9-fd22-1f69-f8de" name="Starburst Missiles" hidden="false" collective="false" import="true" targetId="6485-a0c6-16ce-6791" type="selectionEntry"/>
-          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="1e9f-7176-6d47-690e" name="Left Arm" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d06-db1d-b34e-2cd6" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="146d-cc90-4543-a546" name="Seeker" hidden="false" collective="false" import="true" targetId="9986-5dd0-9ee1-8d53" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="0299-7332-18b3-5566" name="Heavy Fusion Glaive" hidden="false" collective="false" import="true" targetId="d567-ff1c-0c77-e2c3" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="83ba-c6f3-1736-942f" name="Assault Shield" hidden="false" collective="false" import="true" targetId="5d55-430b-40c5-d090" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="580b-3607-015d-b743" name="Left Shoulder" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="064b-74b3-fd81-eb25" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="063b-556c-a047-f11c" name="Null Cannon" hidden="false" collective="false" import="true" targetId="a3b7-d885-c0ce-0023" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="754a-de37-0ab6-eb75" name="Harbinger Cannon" hidden="false" collective="false" import="true" targetId="1470-2f06-63ec-db51" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="f07e-3480-a390-6df4" name="Starburst Missiles" hidden="false" collective="false" import="true" targetId="6485-a0c6-16ce-6791" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="a5cc-781e-8d4d-ab9e" name="Right Arm" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04c7-7b9b-01bd-a198" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="8f06-22f6-4eb6-ea10" name="Seeker" hidden="false" collective="false" import="true" targetId="9986-5dd0-9ee1-8d53" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="0c0c-75bf-0dda-a721" name="Heavy Fusion Glaive" hidden="false" collective="false" import="true" targetId="d567-ff1c-0c77-e2c3" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ff54-7501-034f-fdc9" name="Assault Shield" hidden="false" collective="false" import="true" targetId="5d55-430b-40c5-d090" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="6137-1475-9e1a-8168" name="Right Shoulder" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b999-4f95-8f01-ea53" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="4d33-ea4c-22ce-82b6" name="Null Cannon" hidden="false" collective="false" import="true" targetId="a3b7-d885-c0ce-0023" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="d095-a8ed-b87d-f622" name="Harbinger Cannon" hidden="false" collective="false" import="true" targetId="1470-2f06-63ec-db51" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="46f4-874c-a5dd-0e23" name="Starburst Missiles" hidden="false" collective="false" import="true" targetId="6485-a0c6-16ce-6791" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
