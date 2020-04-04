@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="154e-fbe3-f081-b409" name="Marcher Worlds" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6e64-0ab9-a430-a976" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="154e-fbe3-f081-b409" name="Marcher Worlds" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="6e64-0ab9-a430-a976" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="c9ff-4d93-b27c-d56b" name="Dusk Wolf" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -68,42 +68,49 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="cc0b-5e67-4d69-6b23" name="Left Arm" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9e76-e62c-cd1f-fa60" name="Hardpoints" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f2f-0ddd-fe17-266f" type="max"/>
+            <constraint field="ecbb-d452-36d4-0214" scope="c9ff-4d93-b27c-d56b" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17f5-1add-e49f-4e56" type="max"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="20e9-726c-ffc4-fbac" name="Battle Rifle" hidden="false" collective="false" import="true" targetId="3b72-5fc5-a159-1429" type="selectionEntry"/>
-            <entryLink id="3f97-b1e9-b763-9d42" name="Ripper" hidden="false" collective="false" import="true" targetId="dcba-bdcf-28df-5b87" type="selectionEntry"/>
-            <entryLink id="c4e5-d336-7430-8251" name="Flame Thrower" hidden="false" collective="false" import="true" targetId="3eb8-20ba-d492-11b0" type="selectionEntry"/>
-            <entryLink id="6715-3dcf-0749-1019" name="Impaler" hidden="false" collective="false" import="true" targetId="3807-0a5f-9501-0ed2" type="selectionEntry"/>
-            <entryLink id="c7fd-c9d6-d2ba-6a53" name="Particle Accelerator" hidden="false" collective="false" import="true" targetId="6485-7691-7900-71d5" type="selectionEntry"/>
-            <entryLink id="592d-4acf-2a85-1ef4" name="Slug Gun" hidden="false" collective="false" import="true" targetId="e9bf-7176-b61d-4e73" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="6b37-57b1-2a25-5d54" name="Right Arm" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b0f-0c94-9224-a48d" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="33b8-f94e-3d00-f973" name="Battle Rifle" hidden="false" collective="false" import="true" targetId="3b72-5fc5-a159-1429" type="selectionEntry"/>
-            <entryLink id="0b22-157d-3b3e-a6ef" name="Ripper" hidden="false" collective="false" import="true" targetId="dcba-bdcf-28df-5b87" type="selectionEntry"/>
-            <entryLink id="ec0e-9c0c-7dc8-3ef5" name="Flame Thrower" hidden="false" collective="false" import="true" targetId="3eb8-20ba-d492-11b0" type="selectionEntry"/>
-            <entryLink id="a82c-e244-a770-1938" name="Impaler" hidden="false" collective="false" import="true" targetId="3807-0a5f-9501-0ed2" type="selectionEntry"/>
-            <entryLink id="e8cf-67a1-272c-50b4" name="Particle Accelerator" hidden="false" collective="false" import="true" targetId="6485-7691-7900-71d5" type="selectionEntry"/>
-            <entryLink id="3626-60ff-1030-2453" name="Slug Gun" hidden="false" collective="false" import="true" targetId="e9bf-7176-b61d-4e73" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="27e9-8b3a-80ef-1a59" name="Shoulder" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06c9-4daf-7d7f-a43f" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="07d1-6e88-f481-6a88" name="Talon Rocket Pod" hidden="false" collective="false" import="true" targetId="c24f-faf3-2890-4e6e" type="selectionEntry"/>
-            <entryLink id="c848-aef7-7b39-fbbf" name="Rail Gun" hidden="false" collective="false" import="true" targetId="921a-71ea-73af-991d" type="selectionEntry"/>
-            <entryLink id="c5b2-6b56-23cb-7731" name="Blazer" hidden="false" collective="false" import="true" targetId="92f0-ed13-0a2c-ecae" type="selectionEntry"/>
-            <entryLink id="44b5-01e3-ed84-f9a7" name="Wildflower" hidden="false" collective="false" import="true" targetId="28df-111d-3305-ece5" type="selectionEntry"/>
-          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="2102-3a48-6fef-13e5" name="Left Arm" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a1b-040b-243e-5ae2" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="ce28-4860-ec87-f510" name="Battle Rifle" hidden="false" collective="false" import="true" targetId="3b72-5fc5-a159-1429" type="selectionEntry"/>
+                <entryLink id="65e7-4ffd-24f7-59b4" name="Ripper" hidden="false" collective="false" import="true" targetId="dcba-bdcf-28df-5b87" type="selectionEntry"/>
+                <entryLink id="22c8-f9e9-5cde-03c2" name="Flame Thrower" hidden="false" collective="false" import="true" targetId="3eb8-20ba-d492-11b0" type="selectionEntry"/>
+                <entryLink id="147d-5ab2-aee4-1953" name="Impaler" hidden="false" collective="false" import="true" targetId="3807-0a5f-9501-0ed2" type="selectionEntry"/>
+                <entryLink id="3b7c-f31e-7738-a137" name="Particle Accelerator" hidden="false" collective="false" import="true" targetId="6485-7691-7900-71d5" type="selectionEntry"/>
+                <entryLink id="d9e4-1206-e235-4b6c" name="Slug Gun" hidden="false" collective="false" import="true" targetId="e9bf-7176-b61d-4e73" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="854f-11f5-dfc4-b4e3" name="Right Arm" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7867-df3f-9aef-465b" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="ff92-cdcf-17a0-cbad" name="Battle Rifle" hidden="false" collective="false" import="true" targetId="3b72-5fc5-a159-1429" type="selectionEntry"/>
+                <entryLink id="5026-323f-1c95-e8b3" name="Ripper" hidden="false" collective="false" import="true" targetId="dcba-bdcf-28df-5b87" type="selectionEntry"/>
+                <entryLink id="a239-56e4-0b9d-fd47" name="Flame Thrower" hidden="false" collective="false" import="true" targetId="3eb8-20ba-d492-11b0" type="selectionEntry"/>
+                <entryLink id="8229-5f0b-d86f-874b" name="Impaler" hidden="false" collective="false" import="true" targetId="3807-0a5f-9501-0ed2" type="selectionEntry"/>
+                <entryLink id="44c9-0768-6ceb-e1b6" name="Particle Accelerator" hidden="false" collective="false" import="true" targetId="6485-7691-7900-71d5" type="selectionEntry"/>
+                <entryLink id="a006-3648-9ab1-7783" name="Slug Gun" hidden="false" collective="false" import="true" targetId="e9bf-7176-b61d-4e73" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="2de8-2fc1-4452-4a71" name="Shoulder" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2169-6ca5-d542-84b4" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="8823-6652-fe9e-c3a1" name="Talon Rocket Pod" hidden="false" collective="false" import="true" targetId="c24f-faf3-2890-4e6e" type="selectionEntry"/>
+                <entryLink id="f116-b857-30f1-c521" name="Rail Gun" hidden="false" collective="false" import="true" targetId="921a-71ea-73af-991d" type="selectionEntry"/>
+                <entryLink id="5486-4a9f-8747-1b6c" name="Blazer" hidden="false" collective="false" import="true" targetId="92f0-ed13-0a2c-ecae" type="selectionEntry"/>
+                <entryLink id="4332-8710-0848-cfbe" name="Wildflower" hidden="false" collective="false" import="true" targetId="28df-111d-3305-ece5" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -294,25 +301,100 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="09fe-8979-6152-3e8c" name="Right Arm" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="8eee-521a-f155-49a4" name="Hardpoints" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a70-9087-328f-3e67" type="max"/>
+            <constraint field="ecbb-d452-36d4-0214" scope="f87a-0fb7-2e88-2cf1" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="942d-3cc4-b594-2457" type="max"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="7223-7b24-f16b-5c1e" name="Battle Rifle" hidden="false" collective="false" import="true" targetId="3b72-5fc5-a159-1429" type="selectionEntry"/>
-            <entryLink id="7b4f-a5c3-ddd8-3b52" name="Flame Thrower" hidden="false" collective="false" import="true" targetId="3eb8-20ba-d492-11b0" type="selectionEntry"/>
-            <entryLink id="9cf3-2c69-331a-fec3" name="Fusion Drill" hidden="false" collective="false" import="true" targetId="3cc2-32aa-c726-779a" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="6452-a8df-48ff-de9c" name="Shoulder" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e54-708b-b059-6afd" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="35e0-df32-df26-c13a" name="Talon Rocket Pod" hidden="false" collective="false" import="true" targetId="c24f-faf3-2890-4e6e" type="selectionEntry"/>
-            <entryLink id="de66-4adb-a651-c001" name="Rail Gun" hidden="false" collective="false" import="true" targetId="921a-71ea-73af-991d" type="selectionEntry"/>
-            <entryLink id="8e79-7d1f-1684-5ac2" name="Particle Cannon" hidden="false" collective="false" import="true" targetId="4815-be73-0ecc-2255" type="selectionEntry"/>
-          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="6c95-923a-2f04-411f" name="Left Arm" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5cf-e185-060d-1f20" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="d490-4558-aacf-a1b2" name="Battle Rifle" hidden="false" collective="false" import="true" targetId="3b72-5fc5-a159-1429" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="9b4a-428b-2d2e-8193" name="Flame Thrower" hidden="false" collective="false" import="true" targetId="3eb8-20ba-d492-11b0" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="a802-19d6-4310-21fb" name="Fusion Drill" hidden="false" collective="false" import="true" targetId="3cc2-32aa-c726-779a" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="6f5f-d09f-3fc7-f0a8" name="Right Arm" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbf9-84e9-a152-00c4" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="b764-73bc-89b2-2a94" name="Battle Rifle" hidden="false" collective="false" import="true" targetId="3b72-5fc5-a159-1429" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="6cb5-f44b-a4e7-7df7" name="Flame Thrower" hidden="false" collective="false" import="true" targetId="3eb8-20ba-d492-11b0" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="303a-21ff-cdc4-dc56" name="Fusion Drill" hidden="false" collective="false" import="true" targetId="3cc2-32aa-c726-779a" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="09a1-2416-0a7e-68ce" name="Left Shoulder" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd95-c590-a875-5038" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="3db0-2b48-ab13-6fe3" name="Talon Rocket Pod" hidden="false" collective="false" import="true" targetId="c24f-faf3-2890-4e6e" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ba10-e365-e635-260b" name="Rail Gun" hidden="false" collective="false" import="true" targetId="921a-71ea-73af-991d" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="f31c-b802-d762-3c25" name="Particle Cannon" hidden="false" collective="false" import="true" targetId="4815-be73-0ecc-2255" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="e439-c270-24cc-55d0" name="Right Shoulder" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5da8-4bca-fb72-a914" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="94d0-5e38-e15f-5ad0" name="Talon Rocket Pod" hidden="false" collective="false" import="true" targetId="c24f-faf3-2890-4e6e" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="4ae7-475a-e3fb-9de4" name="Rail Gun" hidden="false" collective="false" import="true" targetId="921a-71ea-73af-991d" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="e2da-22f0-e70d-6a5b" name="Particle Cannon" hidden="false" collective="false" import="true" targetId="4815-be73-0ecc-2255" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
