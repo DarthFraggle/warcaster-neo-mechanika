@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b8c1-c778-0dfe-7f91" name="Aeternus Continuum" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6e64-0ab9-a430-a976" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b8c1-c778-0dfe-7f91" name="Aeternus Continuum" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="6e64-0ab9-a430-a976" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="26e1-4a06-0aab-8bff" name="Scourge" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d20-cfb2-7d09-2bd6" type="max"/>
-        <constraint field="ecbb-d452-36d4-0214" scope="26e1-4a06-0aab-8bff" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="f37e-0c20-d825-41e6" type="max"/>
       </constraints>
       <profiles>
         <profile id="018f-708a-4e1d-efc1" name="Scourge" hidden="false" typeId="cc59-e7be-6377-2748" typeName="Warjack">
@@ -79,106 +78,113 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="ced6-bd66-75ed-f34d" name="Right Arm" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e112-c45d-ffa9-8d70" name="Hardpoints" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3aa4-532b-a4d1-123f" type="max"/>
+            <constraint field="ecbb-d452-36d4-0214" scope="26e1-4a06-0aab-8bff" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f714-cfa3-9135-a21a" type="max"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="953f-e2b3-8b39-6de3" name="Force Rod" hidden="false" collective="false" import="true" targetId="96e8-780b-cab0-fd95" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="8322-cf7a-fd8f-e14a" name="Void Splitter" hidden="false" collective="false" import="true" targetId="5626-a2a6-90ca-dfa2" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="c737-7901-39bb-1f4c" name="Stinger Cannon" hidden="false" collective="false" import="true" targetId="e96c-18d1-9b2d-ff9b" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="e57a-9011-e373-1004" name="Reaper" hidden="false" collective="false" import="true" targetId="ac9e-e938-ad6f-5c8f" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="5575-ff9d-aacd-9cc5" name="Left Shoulder" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1503-5ad0-4669-7de3" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="c6f0-5ff2-948a-3897" name="Hollowphage Cannon" hidden="false" collective="false" import="true" targetId="3ab1-efd4-333b-fcc4" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="4155-0290-4f1e-11ca" name="Rocket Pod" hidden="false" collective="false" import="true" targetId="23ff-0aa3-29ff-4328" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="d6b0-f23f-ca98-78cc" name="Nailer" hidden="false" collective="false" import="true" targetId="83bc-8013-087c-f0fc" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="1007-5ac6-d402-d595" name="Hex Cannon" hidden="false" collective="false" import="true" targetId="db59-7f9f-a962-b3b9" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="165e-8831-7120-b27c" name="Entrophier" hidden="false" collective="false" import="true" targetId="84c7-2af8-1f36-4793" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="57b8-5e10-48d4-4141" name="Cloaking Device" hidden="false" collective="false" import="true" targetId="7d47-ccf2-f881-a571" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="0bef-ddd0-3c0f-bb51" name="Right Shoulder" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1176-84d3-9268-6233" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="9173-8d69-f552-c624" name="Hollowphage Cannon" hidden="false" collective="false" import="true" targetId="3ab1-efd4-333b-fcc4" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="4c87-5d3e-84e5-157c" name="Rocket Pod" hidden="false" collective="false" import="true" targetId="23ff-0aa3-29ff-4328" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="f892-acd0-24c3-84ba" name="Nailer" hidden="false" collective="false" import="true" targetId="83bc-8013-087c-f0fc" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="e20c-2e43-62be-fd08" name="Hex Cannon" hidden="false" collective="false" import="true" targetId="db59-7f9f-a962-b3b9" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="ac82-30ed-68bf-85ed" name="Entrophier" hidden="false" collective="false" import="true" targetId="84c7-2af8-1f36-4793" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="f866-14b6-b93c-9ae2" name="Cloaking Device" hidden="false" collective="false" import="true" targetId="7d47-ccf2-f881-a571" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="87a8-8a54-e165-4ac4" name="Left Shoulder" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="accb-a865-0360-dde5" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="0787-6edf-1f30-8e4f" name="Hollowphage Cannon" hidden="false" collective="false" import="true" targetId="3ab1-efd4-333b-fcc4" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="64c5-0f5d-cd0c-2f70" name="Rocket Pod" hidden="false" collective="false" import="true" targetId="23ff-0aa3-29ff-4328" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="2c3c-4864-4d47-9807" name="Nailer" hidden="false" collective="false" import="true" targetId="83bc-8013-087c-f0fc" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="5513-d296-dbdc-002e" name="Hex Cannon" hidden="false" collective="false" import="true" targetId="db59-7f9f-a962-b3b9" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="f2c1-1d5c-907a-a79f" name="Entrophier" hidden="false" collective="false" import="true" targetId="84c7-2af8-1f36-4793" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="2d9c-09c9-e007-8d97" name="Cloaking Device" hidden="false" collective="false" import="true" targetId="7d47-ccf2-f881-a571" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="fcc7-3560-1b03-27cb" name="Right Arm" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b692-a795-c59a-7b40" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="0178-748d-9d93-7bdb" name="Force Rod" hidden="false" collective="false" import="true" targetId="96e8-780b-cab0-fd95" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="a8ae-0a23-3f8f-4385" name="Void Splitter" hidden="false" collective="false" import="true" targetId="5626-a2a6-90ca-dfa2" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="b442-4997-0267-4aae" name="Stinger Cannon" hidden="false" collective="false" import="true" targetId="e96c-18d1-9b2d-ff9b" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="1bf3-7527-257a-f793" name="Reaper" hidden="false" collective="false" import="true" targetId="ac9e-e938-ad6f-5c8f" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="c5ea-04f2-5f4a-62a5" name="Right Shoulder" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dce8-1eac-354d-4293" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="159d-2792-feb4-646c" name="Hollowphage Cannon" hidden="false" collective="false" import="true" targetId="3ab1-efd4-333b-fcc4" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="3d88-7468-b205-9a05" name="Rocket Pod" hidden="false" collective="false" import="true" targetId="23ff-0aa3-29ff-4328" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="80c7-b826-7b69-7ccc" name="Nailer" hidden="false" collective="false" import="true" targetId="83bc-8013-087c-f0fc" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="a46d-8377-e74e-0376" name="Hex Cannon" hidden="false" collective="false" import="true" targetId="db59-7f9f-a962-b3b9" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="01cf-f5cd-2d48-97d7" name="Entrophier" hidden="false" collective="false" import="true" targetId="84c7-2af8-1f36-4793" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="31d5-f8c1-d156-de31" name="Cloaking Device" hidden="false" collective="false" import="true" targetId="7d47-ccf2-f881-a571" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -283,7 +289,6 @@
     <selectionEntry id="a117-0282-4913-0a13" name="Nemesis" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a968-6540-f841-b004" type="max"/>
-        <constraint field="ecbb-d452-36d4-0214" scope="a117-0282-4913-0a13" value="8.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="0f1a-f0e0-c98c-af53" type="max"/>
       </constraints>
       <profiles>
         <profile id="1f0d-ae09-7790-aba1" name="Nemesis" hidden="false" typeId="cc59-e7be-6377-2748" typeName="Warjack">
@@ -332,93 +337,100 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="f09c-d95d-1492-9afd" name="Right Arm" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="4f98-047a-076f-ad8c" name="Hardpoints" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6153-7ef0-0ba0-62cb" type="max"/>
+            <constraint field="ecbb-d452-36d4-0214" scope="a117-0282-4913-0a13" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64c7-c226-fad0-e26b" type="max"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="ad69-6fbd-ab96-483a" name="Void Splitter" hidden="false" collective="false" import="true" targetId="5626-a2a6-90ca-dfa2" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="4c6e-33ef-0adc-9fb4" name="Fusion Scythe" hidden="false" collective="false" import="true" targetId="6fbc-31a0-2a81-593b" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="38f5-61c8-dc80-9f15" name="Displacer" hidden="false" collective="false" import="true" targetId="6d70-0229-9f2f-d0a3" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="a483-7b16-03e1-5041" name="Right Shoulder" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b162-d1a8-79f8-f9f1" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="0f2c-2849-41c4-2855" name="Hollowphage Cannon" hidden="false" collective="false" import="true" targetId="3ab1-efd4-333b-fcc4" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="8cc5-0206-08b0-309c" name="Rocket Pod" hidden="false" collective="false" import="true" targetId="23ff-0aa3-29ff-4328" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="a00d-2b03-f187-b6b5" name="Starfall Cannon" hidden="false" collective="false" import="true" targetId="432a-d11f-6174-8b62" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="bd06-8048-4cb4-bf52" name="Left Arm" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2341-e245-95ba-1e26" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="488b-7b32-caf8-b6c5" name="Void Splitter" hidden="false" collective="false" import="true" targetId="5626-a2a6-90ca-dfa2" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="b3a0-205e-b28c-f726" name="Fusion Scythe" hidden="false" collective="false" import="true" targetId="6fbc-31a0-2a81-593b" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="a6fc-8e34-e35b-1813" name="Displacer" hidden="false" collective="false" import="true" targetId="6d70-0229-9f2f-d0a3" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="3013-a230-484a-56b2" name="Left Shoulder" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0970-9ec9-98b1-1772" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="966a-ecef-401f-4827" name="Hollowphage Cannon" hidden="false" collective="false" import="true" targetId="3ab1-efd4-333b-fcc4" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="ca3d-d09a-8e77-03e8" name="Rocket Pod" hidden="false" collective="false" import="true" targetId="23ff-0aa3-29ff-4328" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="2ded-110d-26e9-10d8" name="Starfall Cannon" hidden="false" collective="false" import="true" targetId="432a-d11f-6174-8b62" type="selectionEntry">
-              <costs>
-                <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="42e1-df3b-cbb0-030c" name="Left Arm" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f72-8596-636f-f0d7" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="c5da-6d8e-335b-1521" name="Void Splitter" hidden="false" collective="false" import="true" targetId="5626-a2a6-90ca-dfa2" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="a121-3b13-95a6-2c8f" name="Fusion Scythe" hidden="false" collective="false" import="true" targetId="6fbc-31a0-2a81-593b" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="151f-10f1-d8db-497c" name="Displacer" hidden="false" collective="false" import="true" targetId="6d70-0229-9f2f-d0a3" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="b45e-e7d4-f042-6583" name="Left Shoulder" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df46-edfa-9765-92a6" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="fa2b-ca82-8e90-3e77" name="Hollowphage Cannon" hidden="false" collective="false" import="true" targetId="3ab1-efd4-333b-fcc4" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ea62-1e1e-4704-a8c6" name="Rocket Pod" hidden="false" collective="false" import="true" targetId="23ff-0aa3-29ff-4328" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="1b55-eff7-f49f-82bb" name="Starfall Cannon" hidden="false" collective="false" import="true" targetId="432a-d11f-6174-8b62" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="f8b7-459a-b73e-40c6" name="Right Arm" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="139a-57c7-4b4c-4450" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="c2c0-5812-4622-c735" name="Void Splitter" hidden="false" collective="false" import="true" targetId="5626-a2a6-90ca-dfa2" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="c3ff-bd38-5b1f-ad5d" name="Fusion Scythe" hidden="false" collective="false" import="true" targetId="6fbc-31a0-2a81-593b" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="1.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="52a1-8163-0159-beb3" name="Displacer" hidden="false" collective="false" import="true" targetId="6d70-0229-9f2f-d0a3" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="fe00-9f3b-4219-9ee8" name="Right Shoulder" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d225-a45b-a5f5-57e1" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="b262-2232-7bf0-d0f4" name="Hollowphage Cannon" hidden="false" collective="false" import="true" targetId="3ab1-efd4-333b-fcc4" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="09d3-a535-e31f-d717" name="Rocket Pod" hidden="false" collective="false" import="true" targetId="23ff-0aa3-29ff-4328" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="2.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="afd3-2ea0-9755-ca53" name="Starfall Cannon" hidden="false" collective="false" import="true" targetId="432a-d11f-6174-8b62" type="selectionEntry">
+                  <costs>
+                    <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="3.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
