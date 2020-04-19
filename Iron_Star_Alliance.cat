@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ac83-1714-49af-721e" name="Iron Star Alliance" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="6e64-0ab9-a430-a976" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ac83-1714-49af-721e" name="Iron Star Alliance" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="6e64-0ab9-a430-a976" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b0e6-c6b9-4e6f-7c99" name="Firebrand" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -20,8 +20,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="fa88-3cb5-68d1-23a5" name="Impulse Reciprocator (Spike)" hidden="false" targetId="45b4-f347-8366-5808" type="rule"/>
-        <infoLink id="875e-6dd8-e989-1d51" name="Range Amplifier (Charge)" hidden="false" targetId="e532-a22c-5f39-54d3" type="rule"/>
+        <infoLink id="37f3-c0b5-5a2b-ed7b" name="Refractor Field" hidden="false" targetId="309a-b487-006c-6310" type="rule"/>
+        <infoLink id="046b-7620-6284-f4e4" name="Force Projector (Charge)" hidden="false" targetId="ee53-15d2-f2a6-4545" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8d39-c278-3279-6dd9" name="Units" hidden="false" targetId="63b7-c3cd-7f99-1cf0" primary="true"/>
@@ -298,8 +298,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="0787-4c0f-9538-1f6d" name="Force Projector (Charge)" hidden="false" targetId="ee53-15d2-f2a6-4545" type="rule"/>
-        <infoLink id="511d-5324-123c-8a4e" name="Refractor Field" hidden="false" targetId="309a-b487-006c-6310" type="rule"/>
+        <infoLink id="dbba-2372-9457-731f" name="Range Amplifier (Charge)" hidden="false" targetId="e532-a22c-5f39-54d3" type="rule"/>
+        <infoLink id="ab97-ab10-89d7-34d7" name="Impulse Reciprocator (Spike)" hidden="false" targetId="45b4-f347-8366-5808" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e85b-dfd2-324d-8c8d" name="Units" hidden="false" targetId="63b7-c3cd-7f99-1cf0" primary="true"/>
@@ -430,8 +430,17 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8e55-b58c-569a-ef97" name="Paladin Aegis" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="cd1a-7a3f-d88c-ff2e" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bdd8-99b0-f98b-92b5" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b723-e423-c97d-0324" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd1a-7a3f-d88c-ff2e" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd1a-7a3f-d88c-ff2e" type="max"/>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1388-67fb-7f8a-3bab" type="max"/>
       </constraints>
       <profiles>
         <profile id="db9e-a008-4094-9db8" name="Paladin Aegis" hidden="false" typeId="ee5b-45d6-6439-5c83" typeName="Squad">

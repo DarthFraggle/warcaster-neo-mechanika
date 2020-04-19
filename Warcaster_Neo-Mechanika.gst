@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="6e64-0ab9-a430-a976" name="Warcaster: Neo-Mechanika" revision="1" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="6e64-0ab9-a430-a976" name="Warcaster: Neo-Mechanika" revision="2" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="ecbb-d452-36d4-0214" name="Weapon Points" defaultCostLimit="-1.0"/>
   </costTypes>
@@ -81,6 +81,11 @@
           </constraints>
         </categoryLink>
         <categoryLink id="bc66-e091-d647-e2c8" name="The Rack" hidden="false" targetId="7ad6-33d2-2e9b-7f2b" primary="false"/>
+        <categoryLink id="3359-e956-34c2-eb54" name="Attachments" hidden="false" targetId="fa79-7113-8f14-037f" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61e2-8a1e-3116-d7d7" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="5e10-96ff-285b-2422" name="Full Battleforce" hidden="false">
@@ -102,6 +107,11 @@
           </constraints>
         </categoryLink>
         <categoryLink id="f68f-acdb-715b-d963" name="The Rack" hidden="false" targetId="7ad6-33d2-2e9b-7f2b" primary="false"/>
+        <categoryLink id="52ca-c6a3-7b75-5ab8" name="Attachments" hidden="false" targetId="fa79-7113-8f14-037f" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12f9-78e4-47ce-0537" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
