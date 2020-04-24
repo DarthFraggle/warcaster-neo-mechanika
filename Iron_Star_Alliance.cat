@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ac83-1714-49af-721e" name="Iron Star Alliance" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="6e64-0ab9-a430-a976" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ac83-1714-49af-721e" name="Iron Star Alliance" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="6e64-0ab9-a430-a976" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b0e6-c6b9-4e6f-7c99" name="Firebrand" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84c7-d422-97cc-d54e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="fa52-ce31-ede4-ef37" name="Morningstar" hidden="false" typeId="cc59-e7be-6377-2748" typeName="Warjack">
+        <profile id="5faa-abf8-e55f-1bf0" name="Firebrand" hidden="false" typeId="cc59-e7be-6377-2748" typeName="Warjack">
           <characteristics>
             <characteristic name="SPD" typeId="1413-5833-1ac4-364e">6</characteristic>
-            <characteristic name="STR" typeId="ef6f-3951-7724-cbd5">5</characteristic>
+            <characteristic name="STR" typeId="ef6f-3951-7724-cbd5">4</characteristic>
             <characteristic name="MAT" typeId="7b76-af98-bb5a-e1c9">4</characteristic>
             <characteristic name="RAT" typeId="eb8d-8cbf-bb66-554b">4</characteristic>
             <characteristic name="DEF" typeId="b6f0-5339-fc72-593e">3</characteristic>
-            <characteristic name="ARM" typeId="ab4f-1ee8-5665-cc9a">5</characteristic>
-            <characteristic name="DMG" typeId="5361-e1ee-3259-4c39">4</characteristic>
-            <characteristic name="CST" typeId="c638-3794-83aa-d72a">4</characteristic>
+            <characteristic name="ARM" typeId="ab4f-1ee8-5665-cc9a">3</characteristic>
+            <characteristic name="DMG" typeId="5361-e1ee-3259-4c39">3</characteristic>
+            <characteristic name="CST" typeId="c638-3794-83aa-d72a">2</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -284,16 +284,16 @@
         <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d17-a133-9540-331f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d90c-38e0-8911-7c66" name="Firebrand" hidden="false" typeId="cc59-e7be-6377-2748" typeName="Warjack">
+        <profile id="7eee-ff76-8899-f055" name="Morningstar" hidden="false" typeId="cc59-e7be-6377-2748" typeName="Warjack">
           <characteristics>
             <characteristic name="SPD" typeId="1413-5833-1ac4-364e">6</characteristic>
-            <characteristic name="STR" typeId="ef6f-3951-7724-cbd5">4</characteristic>
+            <characteristic name="STR" typeId="ef6f-3951-7724-cbd5">5</characteristic>
             <characteristic name="MAT" typeId="7b76-af98-bb5a-e1c9">4</characteristic>
             <characteristic name="RAT" typeId="eb8d-8cbf-bb66-554b">4</characteristic>
             <characteristic name="DEF" typeId="b6f0-5339-fc72-593e">3</characteristic>
-            <characteristic name="ARM" typeId="ab4f-1ee8-5665-cc9a">3</characteristic>
-            <characteristic name="DMG" typeId="5361-e1ee-3259-4c39">3</characteristic>
-            <characteristic name="CST" typeId="c638-3794-83aa-d72a">2</characteristic>
+            <characteristic name="ARM" typeId="ab4f-1ee8-5665-cc9a">5</characteristic>
+            <characteristic name="DMG" typeId="5361-e1ee-3259-4c39">4</characteristic>
+            <characteristic name="CST" typeId="c638-3794-83aa-d72a">4</characteristic>
           </characteristics>
         </profile>
       </profiles>
