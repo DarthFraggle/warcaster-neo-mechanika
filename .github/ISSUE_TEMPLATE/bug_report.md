@@ -8,9 +8,9 @@ assignees: ''
 ---
 
 **Faction**
-- [ ] Iron Star Alliance
-- [ ] Marcher Worlds
-- [ ] Aerternus Continum
+- [x] Iron Star Alliance
+- [] Marcher Worlds
+- [] Aeternus Continuum
 
 **Describe the bug**
 A clear and concise description of what the bug is.
