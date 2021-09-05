@@ -303,6 +303,9 @@
             <infoLink id="36e7-e604-2241-0d58" name="Force" hidden="false" targetId="8373-ff2e-7769-c5a7" type="rule"/>
             <infoLink id="1405-d9a4-43ef-9680" name="Stun Module (Spike)" hidden="false" targetId="74d3-0293-89c9-ba64" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -374,6 +377,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fca2-fc5f-d8fc-f2ad" name="Assault Rifle" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -388,6 +394,9 @@
         <infoLink id="e4a2-eccf-76b9-5f54" name="Ballistic" hidden="false" targetId="4c03-2674-46a3-4674" type="rule"/>
         <infoLink id="0b23-1d3e-abe4-4b2b" name="Ranged" hidden="false" targetId="15d3-b3f8-98ef-48bc" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a385-0d0d-e7c6-1bb4" name="Magnum" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -402,6 +411,9 @@
         <infoLink id="66e0-f459-bfe8-1055" name="Ballistic" hidden="false" targetId="4c03-2674-46a3-4674" type="rule"/>
         <infoLink id="dee8-8c39-ce78-8377" name="Ranged" hidden="false" targetId="15d3-b3f8-98ef-48bc" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="982a-1bfb-7c11-b7b9" name="Oblivion" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -419,6 +431,9 @@
         <infoLink id="7695-59cd-f1da-850f" name="Gorge" hidden="false" targetId="14b7-3e35-6f9c-bebe" type="rule"/>
         <infoLink id="a894-226d-7b64-684e" name="Siphon Power" hidden="false" targetId="4da9-a09e-9260-e1ed" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="dd0d-1af9-772b-2a66" name="Fusion Sword" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -433,6 +448,9 @@
         <infoLink id="2fe5-4f36-1a83-d5ea" name="Kinetic" hidden="false" targetId="9e4e-f8cd-00eb-cad9" type="rule"/>
         <infoLink id="b97a-cd76-c7c2-4825" name="Melee" hidden="false" targetId="6c5c-9284-ad97-ece8" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bad8-a8e3-7f74-4585" name="Combat Blade" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -447,6 +465,9 @@
         <infoLink id="92c5-14cb-1453-f24b" name="Melee" hidden="false" targetId="6c5c-9284-ad97-ece8" type="rule"/>
         <infoLink id="9d85-ae49-bf3b-eb24" name="Kinetic" hidden="false" targetId="9e4e-f8cd-00eb-cad9" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b93c-4a3a-7273-5ec8" name="Null Detonator" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -465,6 +486,23 @@
       <infoLinks>
         <infoLink id="3729-a585-588d-1457" name="Ranged" hidden="false" targetId="15d3-b3f8-98ef-48bc" type="rule"/>
         <infoLink id="fe18-a212-9bd0-0081" name="Energy" hidden="false" targetId="f884-bbdf-1755-7f40" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ddfc-dacc-8d2e-265f" name="Fusion Blade" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a48e-6705-7ca3-db53" name="Fusion Blade" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+          <characteristics>
+            <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">1</characteristic>
+            <characteristic name="POW" typeId="9750-e740-35f4-1cf6">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8513-a812-f7c9-9d7e" name="Kinetic" hidden="false" targetId="9e4e-f8cd-00eb-cad9" type="rule"/>
+        <infoLink id="9b1b-ecbe-f41e-6ec7" name="Melee" hidden="false" targetId="6c5c-9284-ad97-ece8" type="rule"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1185,6 +1223,21 @@
     </rule>
     <rule id="454e-3b8b-3de2-856d" name="Field Reinforcement" publicationId="216d-9058-fe0b-7be3" hidden="false">
       <description>Remove 1 damage point from this model at the start of each of your turns.</description>
+    </rule>
+    <rule id="4e47-8e74-5d7d-c90f" name="Arc Relay (14)" hidden="false">
+      <description>This model can channel Fury Cyphers. A Fury Cypher channeled through this model is RNG 14.</description>
+    </rule>
+    <rule id="77c5-00b4-a116-e328" name="Slip Field (Charge)" hidden="false">
+      <description>When this model is targeted by an attack while charged, after that attack is resolved, this model can move up to 3&quot;.</description>
+    </rule>
+    <rule id="4a41-827f-6868-3087" name="Blast Shielding" hidden="false">
+      <description>While within 2&quot; of this model, friendly models gain the Compound Armor advantage.</description>
+    </rule>
+    <rule id="4bcb-c9b9-251a-f2a5" name="Singularity Collapse" hidden="false">
+      <description>If this weapon targets and destroys an enemy model, other models within 2&quot; of the model targeted suffer a POW 4 damage roll.</description>
+    </rule>
+    <rule id="e94a-94b2-5aeb-5014" name="Gate Launcher (Spike)" hidden="false">
+      <description>Once per activation, this model can spike to place a void gate within 5&quot; of it&apos;s current location.</description>
     </rule>
   </sharedRules>
 </gameSystem>
