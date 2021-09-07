@@ -862,6 +862,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ac68-7485-5e6f-56cf" name="Warder" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="5474-2b1d-9949-72f8" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7dae-96da-d042-36b1" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="64e2-a6b6-1c07-bb9b" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3714-c286-79ac-2dcb" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5474-2b1d-9949-72f8" type="max"/>
+      </constraints>
       <profiles>
         <profile id="d6d3-3134-7217-bd04" name="Warder" hidden="false" typeId="ee5b-45d6-6439-5c83" typeName="Squad">
           <characteristics>
