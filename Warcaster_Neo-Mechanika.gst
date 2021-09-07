@@ -611,6 +611,9 @@
         <infoLink id="3fb2-49e9-9f83-a868" name="Ranged" hidden="false" targetId="15d3-b3f8-98ef-48bc" type="rule"/>
         <infoLink id="c4a1-b49f-435f-11c5" name="Ballistic" hidden="false" targetId="4c03-2674-46a3-4674" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="413f-3332-67a2-8853" name="Corebus" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -663,8 +666,15 @@
             <infoLink id="5bbb-ab52-cbc8-87e6" name="Melee" hidden="false" targetId="6c5c-9284-ad97-ece8" type="rule"/>
             <infoLink id="b7e1-727f-59d5-3e30" name="Kinetic" hidden="false" targetId="9e4e-f8cd-00eb-cad9" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2de5-aa81-cc0b-400d" name="Teleforce Blaster" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b91-d5a2-7b68-e78b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9792-20bd-b0dc-5dfb" type="max"/>
+          </constraints>
           <profiles>
             <profile id="4b6e-4d0a-fbdb-100a" name="Teleforce Blaster" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
               <characteristics>
@@ -678,8 +688,14 @@
             <infoLink id="4cdf-d59c-c42d-0a09" name="Force" hidden="false" targetId="8373-ff2e-7769-c5a7" type="rule"/>
             <infoLink id="174a-43dd-0873-72ed" name="Force Ram (Spike)" hidden="false" targetId="c2f8-48d9-d6ed-1bdf" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
