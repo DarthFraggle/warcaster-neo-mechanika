@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b8c1-c778-0dfe-7f91" name="Aeternus Continuum" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="6e64-0ab9-a430-a976" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b8c1-c778-0dfe-7f91" name="Aeternus Continuum" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="6e64-0ab9-a430-a976" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="26e1-4a06-0aab-8bff" name="Scourge" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -933,16 +933,15 @@
     </selectionEntry>
     <selectionEntry id="3b02-d02a-a93e-a744" name="Scythe" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="5e38-163c-23bf-8530" name="Scythe" hidden="false" typeId="5643-55ad-cf84-ac2a" typeName="Solo">
+        <profile id="5e38-163c-23bf-8530" name="Scythe" hidden="false" typeId="8503-75a8-8ab2-161b" typeName="Vehicle">
           <characteristics>
-            <characteristic name="SPD" typeId="e7f7-8a52-6885-3006">8</characteristic>
-            <characteristic name="MAT" typeId="b4d4-69fe-dd8c-7c12">4</characteristic>
-            <characteristic name="RAT" typeId="3127-5d41-efdc-a87d">3</characteristic>
-            <characteristic name="DEF" typeId="8355-c44c-010d-9a88">3</characteristic>
-            <characteristic name="ARM" typeId="d0c1-80eb-f256-6b2f">4</characteristic>
-            <characteristic name="FOC" typeId="b34d-3c07-68b0-ec80">-</characteristic>
-            <characteristic name="DMG" typeId="76be-0810-d006-512c">4</characteristic>
-            <characteristic name="CST" typeId="50cb-a3c5-93ef-21c0">3</characteristic>
+            <characteristic name="SPD" typeId="d513-8b95-8e8b-9643">8</characteristic>
+            <characteristic name="MAT" typeId="dd71-a3b1-b5d2-4126">4</characteristic>
+            <characteristic name="RAT" typeId="4972-6b8a-4cc9-a39d">3</characteristic>
+            <characteristic name="DEF" typeId="5d4e-e604-9d25-f35d">3</characteristic>
+            <characteristic name="ARM" typeId="5dd6-51ae-08e3-2c18">4</characteristic>
+            <characteristic name="DMG" typeId="804d-3ef2-0e46-d938">4</characteristic>
+            <characteristic name="CST" typeId="c28f-24c8-5446-8b51">3</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -996,6 +995,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a697-8e12-5ad9-b6da" name="Aenigma" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -1091,6 +1093,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -1395,6 +1400,9 @@
         <infoLink id="046c-2352-58f0-2a01" name="Melee" hidden="false" targetId="6c5c-9284-ad97-ece8" type="rule"/>
         <infoLink id="29b1-7a22-cf0c-591d" name="Kinetic" hidden="false" targetId="9e4e-f8cd-00eb-cad9" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e39d-5e87-4c8e-fb67" name="Heavy Displacer" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1410,6 +1418,9 @@
         <infoLink id="adb4-3343-8fad-764e" name="Beam" hidden="false" targetId="416c-f81b-c698-5f02" type="rule"/>
         <infoLink id="e7d3-37ee-74d3-d8df" name="Dislocator (Spike)" hidden="false" targetId="ebb5-c4d8-2797-e523" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d121-0337-412b-f044" name="Heavy Stinger" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1426,6 +1437,9 @@
         <infoLink id="4f2b-9c2b-e10b-d262" name="Strafe" hidden="false" targetId="77e6-c811-aef4-ee7f" type="rule"/>
         <infoLink id="1ee6-567f-0511-226a" name="Targeter (Charge)" hidden="false" targetId="1891-8584-c483-7085" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
