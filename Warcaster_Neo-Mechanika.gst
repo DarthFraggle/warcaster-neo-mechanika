@@ -504,6 +504,87 @@
         <infoLink id="8513-a812-f7c9-9d7e" name="Kinetic" hidden="false" targetId="9e4e-f8cd-00eb-cad9" type="rule"/>
         <infoLink id="9b1b-ecbe-f41e-6ec7" name="Melee" hidden="false" targetId="6c5c-9284-ad97-ece8" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2ed8-0d73-fb42-d501" name="Harlan Sek, The Curator" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="885a-24e6-b13a-2181" name="Harlan Sek, The Curator" hidden="false" typeId="5643-55ad-cf84-ac2a" typeName="Solo">
+          <characteristics>
+            <characteristic name="SPD" typeId="e7f7-8a52-6885-3006">5</characteristic>
+            <characteristic name="MAT" typeId="b4d4-69fe-dd8c-7c12">4</characteristic>
+            <characteristic name="RAT" typeId="3127-5d41-efdc-a87d">4</characteristic>
+            <characteristic name="DEF" typeId="8355-c44c-010d-9a88">2</characteristic>
+            <characteristic name="ARM" typeId="d0c1-80eb-f256-6b2f">4</characteristic>
+            <characteristic name="FOC" typeId="b34d-3c07-68b0-ec80">-</characteristic>
+            <characteristic name="DMG" typeId="76be-0810-d006-512c">3</characteristic>
+            <characteristic name="CST" typeId="50cb-a3c5-93ef-21c0">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b122-15c1-9037-113c" name="Environmental Suit" hidden="false">
+          <description>This model is immune to Cold, Corrosion and Fire damage. This model never suffers the corrosion or fire continuous effects.</description>
+        </rule>
+      </rules>
+      <infoGroups>
+        <infoGroup id="944a-57fd-24bf-66a0" name="Alien Artifacts" hidden="false">
+          <rules>
+            <rule id="db41-dee9-e74b-67d0" name="Penumbral Agitator" hidden="false">
+              <description>Look at your opponents hand of Cypher cards. Chose one Cypher card to discard.</description>
+            </rule>
+            <rule id="837c-23c9-cbe7-fa90" name="Quantum Harmonizer" hidden="false">
+              <description>Roll one ACTION die for this model and each friendly model within 5&quot; of it. Roll separately for each model. Remove 1 damage from each model for each strike rolled.</description>
+            </rule>
+            <rule id="3b8c-666f-b549-c2d0" name="Shadow Conductor" hidden="false">
+              <description>Reposition this model to any location within 2&quot; of any friendly model.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="7b67-f921-3d7d-3f33" name="Weapon Expert" hidden="false" targetId="ed37-1d75-e270-e479" type="rule"/>
+        <infoLink id="7700-c5de-e19f-95b8" name="Dynamic Accelerator (Charge)" hidden="false" targetId="592d-4c1c-98fb-122f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d91d-d7d1-ec01-bbf2" name="New CategoryLink" hidden="false" targetId="cc26-f6fc-643b-1352" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="56dc-e9ff-7068-9100" name="Flux Disruptor" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39ce-48ae-d9d3-1ab3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a8c-c5b0-8bd4-b91c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="91c7-9575-bbb3-67f1" name="Flux Disruptor" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+              <characteristics>
+                <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">12</characteristic>
+                <characteristic name="POW" typeId="9750-e740-35f4-1cf6">4</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="19f0-fb91-d486-5930" name="Ranged" hidden="false" targetId="15d3-b3f8-98ef-48bc" type="rule"/>
+            <infoLink id="f759-b8aa-2d66-50e0" name="Energy" hidden="false" targetId="f884-bbdf-1755-7f40" type="rule"/>
+            <infoLink id="3c0e-7e68-4951-8e20" name="Stun Module (Spike)" hidden="false" targetId="74d3-0293-89c9-ba64" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry id="650a-04d7-edb6-5539" name="Fusion Blade" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="8362-1ca6-cf24-4ed3" name="Fusion Blade" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+              <characteristics>
+                <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">1</characteristic>
+                <characteristic name="POW" typeId="9750-e740-35f4-1cf6">4</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1585-86a8-7431-a0eb" name="Melee" hidden="false" targetId="6c5c-9284-ad97-ece8" type="rule"/>
+            <infoLink id="3261-7252-4bc1-7f7d" name="Kinetic" hidden="false" targetId="9e4e-f8cd-00eb-cad9" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -924,9 +1005,6 @@
     <rule id="7adb-f157-4c5d-c8a9" name="Mimetic Cloak (Charge)" hidden="false">
       <description>While this model is charged, it gains Stealth. A model with Stealth cannot be targeted by attacks made by models more than 8&quot; away.</description>
     </rule>
-    <rule id="094d-bc41-04ce-a04e" name="Phase Sequencer (Spike)" hidden="false">
-      <description>Once per activation, this unit can spike to use Phase Sequencer. That activation, models in this squad can move through obstructions and through other models if they have enough movement to move completely past them.</description>
-    </rule>
     <rule id="ee53-15d2-f2a6-4545" name="Force Projector (Charge)" hidden="false">
       <description>Fore each Arc this model is charged with, this model&apos;s melee weapons gain +1 RNG.</description>
     </rule>
@@ -965,9 +1043,6 @@
     </rule>
     <rule id="6fe1-a603-4323-af51" name="Slip Displacer (Spike)" hidden="false">
       <description>Once per activation, this model can spike to move 3&quot;.</description>
-    </rule>
-    <rule id="6be3-b8b0-01b9-900c" name="Impulse Reactor (Charge)" hidden="false">
-      <description>While charged, if this unit has an activation token on it at the start of your turn, you can remove the activation token from this model.</description>
     </rule>
     <rule id="ed37-1d75-e270-e479" name="Weapon Expert" hidden="false">
       <description>When this model attacks during its activation, it can attack with all of its weapons.</description>
@@ -1071,23 +1146,14 @@
     <rule id="62eb-2d21-2a6c-8b68" name="Flight" hidden="false">
       <description>This model gains Flight.</description>
     </rule>
-    <rule id="af72-afc1-816d-8398" name="Battle Cruiser" hidden="false">
-      <description>When this model makes a ranged attack, immediately after the attack is resolved, this model can move up to 1&quot;.</description>
-    </rule>
     <rule id="ebb5-c4d8-2797-e523" name="Dislocator (Spike)" hidden="false">
       <description>When this model hits an enemy model with this weapon, after the attack is resolved, this model can spike to reposition the model hit anywhere within 3&quot; of its current location.</description>
     </rule>
     <rule id="b3c5-5b94-5cca-52ed" name="High Intensity (Charge)" hidden="false">
       <description>When this model makes an attack with this weapon while charged, add two power dice to the attack roll for each Arc on it instead of one.</description>
     </rule>
-    <rule id="44eb-53c1-d618-01b8" name="Adrenalizer (Charge)" hidden="false">
-      <description>When this model is charged, other warrior models within 5&quot; of it gain +1 ARM and do not suffer continuous effects.</description>
-    </rule>
     <rule id="4339-3e50-7d6c-5e50" name="Repair (Action)" hidden="false">
       <description>This model can make a repair special action to repair a friendly model within 1&quot; of it. Roll three action dice. For each strike rolled, remove 1 damage point from the model being repaired.</description>
-    </rule>
-    <rule id="343c-4bc9-0f7d-c741" name="Resurrection Protocol (Spike)" hidden="false">
-      <description>During its activation and while within 10&quot; of a target friendly squad, this model can spike to return up to two destroyed trooper models to the squad. Place these models within 2&quot; of another model in the squad. A squad can never have more than three trooper models as a result of Resurrection Protocol.</description>
     </rule>
     <rule id="3189-813b-6b69-49ec" name="Jump Jets (Spike)" hidden="false">
       <description>Once per activation, this model can spike to gain +3 SPC and Flight until the end of its activation.</description>
@@ -1133,9 +1199,6 @@
     </rule>
     <rule id="4769-9fbb-0de5-9570" name="Psycho Relay" hidden="false">
       <description>While this unit is in play, you can have up to six Cypher cards in your hand at any time.</description>
-    </rule>
-    <rule id="c3f2-8bf3-13f4-a729" name="Thanotech Reclaimer (Spike)" hidden="false">
-      <description>This model can spike to use Thanotech at any time during its activation. When it does so you can return any Cypher card in your discard pile to your hand.</description>
     </rule>
     <rule id="4c2b-8ff6-dbbb-8525" name="Maelstrom Activator (Spike)" hidden="false">
       <description>During this unit&apos;s activation, immediately after completing its attacks this model can spike to make one additional attack with each of its weapons.</description>
@@ -1238,6 +1301,12 @@
     </rule>
     <rule id="e94a-94b2-5aeb-5014" name="Gate Launcher (Spike)" hidden="false">
       <description>Once per activation, this model can spike to place a void gate within 5&quot; of it&apos;s current location.</description>
+    </rule>
+    <rule id="6c6d-1869-f1f7-4c03" name="Cold" hidden="false">
+      <description>This weapon causes Cold damage.</description>
+    </rule>
+    <rule id="592d-4c1c-98fb-122f" name="Dynamic Accelerator (Charge)" hidden="false">
+      <description>While charged, this model ignores movement terrain penalties for rough terrain.</description>
     </rule>
   </sharedRules>
 </gameSystem>
