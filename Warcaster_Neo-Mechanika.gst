@@ -509,6 +509,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2ed8-0d73-fb42-d501" name="Harlan Sek, The Curator" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91ba-c268-ce02-d5b2" type="max"/>
+      </constraints>
       <profiles>
         <profile id="885a-24e6-b13a-2181" name="Harlan Sek, The Curator" hidden="false" typeId="5643-55ad-cf84-ac2a" typeName="Solo">
           <characteristics>
@@ -569,6 +572,9 @@
             <infoLink id="f759-b8aa-2d66-50e0" name="Energy" hidden="false" targetId="f884-bbdf-1755-7f40" type="rule"/>
             <infoLink id="3c0e-7e68-4951-8e20" name="Stun Module (Spike)" hidden="false" targetId="74d3-0293-89c9-ba64" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="650a-04d7-edb6-5539" name="Fusion Blade" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
@@ -582,6 +588,95 @@
           <infoLinks>
             <infoLink id="1585-86a8-7431-a0eb" name="Melee" hidden="false" targetId="6c5c-9284-ad97-ece8" type="rule"/>
             <infoLink id="3261-7252-4bc1-7f7d" name="Kinetic" hidden="false" targetId="9e4e-f8cd-00eb-cad9" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Weapon Points" typeId="ecbb-d452-36d4-0214" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4466-6c6e-5b1e-2620" name="Handgun" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0a38-b061-3f11-b139" name="Handgun" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+          <characteristics>
+            <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">8</characteristic>
+            <characteristic name="POW" typeId="9750-e740-35f4-1cf6">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3fb2-49e9-9f83-a868" name="Ranged" hidden="false" targetId="15d3-b3f8-98ef-48bc" type="rule"/>
+        <infoLink id="c4a1-b49f-435f-11c5" name="Ballistic" hidden="false" targetId="4c03-2674-46a3-4674" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="413f-3332-67a2-8853" name="Corebus" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5837-17c0-bdf4-6796" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="60d1-3f6f-4334-d3bf" name="Corebus" hidden="false" typeId="5643-55ad-cf84-ac2a" typeName="Solo">
+          <characteristics>
+            <characteristic name="SPD" typeId="e7f7-8a52-6885-3006">6</characteristic>
+            <characteristic name="MAT" typeId="b4d4-69fe-dd8c-7c12">4</characteristic>
+            <characteristic name="RAT" typeId="3127-5d41-efdc-a87d">4</characteristic>
+            <characteristic name="DEF" typeId="8355-c44c-010d-9a88">2</characteristic>
+            <characteristic name="ARM" typeId="d0c1-80eb-f256-6b2f">4</characteristic>
+            <characteristic name="FOC" typeId="b34d-3c07-68b0-ec80">-</characteristic>
+            <characteristic name="DMG" typeId="76be-0810-d006-512c">3</characteristic>
+            <characteristic name="CST" typeId="50cb-a3c5-93ef-21c0">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1696-3bac-d462-3f68" name="Gladiator" hidden="false">
+          <description>This model adds two POWER dice to it&apos;s melee attack rolls targeting enemy warjacks.</description>
+        </rule>
+        <rule id="5c81-7308-a7f8-a781" name="Guardian" hidden="false">
+          <description>When a friendly model is targeted and hit by an enemy attack while within 5&quot; of this model, you can choose to have this model be hit instead.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b96c-f145-80cd-3fad" name="Weapon Expert" hidden="false" targetId="ed37-1d75-e270-e479" type="rule"/>
+        <infoLink id="da2b-5f96-2a67-68b9" name="Dynamic Accelerator (Charge)" hidden="false" targetId="592d-4c1c-98fb-122f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ab6a-6865-2cc3-e733" name="New CategoryLink" hidden="false" targetId="cc26-f6fc-643b-1352" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6760-d2fe-c5b3-ca2c" name="Fist" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5dd-2968-f2c8-9ac5" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f58f-c56f-4a08-aa52" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a3bf-aabf-a3d6-382a" name="Fist" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+              <characteristics>
+                <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">1</characteristic>
+                <characteristic name="POW" typeId="9750-e740-35f4-1cf6">4</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5bbb-ab52-cbc8-87e6" name="Melee" hidden="false" targetId="6c5c-9284-ad97-ece8" type="rule"/>
+            <infoLink id="b7e1-727f-59d5-3e30" name="Kinetic" hidden="false" targetId="9e4e-f8cd-00eb-cad9" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry id="2de5-aa81-cc0b-400d" name="Teleforce Blaster" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="4b6e-4d0a-fbdb-100a" name="Teleforce Blaster" hidden="false" typeId="3601-946f-42f1-0f5c" typeName="Weapon">
+              <characteristics>
+                <characteristic name="RNG" typeId="a6dd-0c75-98a7-e08a">10</characteristic>
+                <characteristic name="POW" typeId="9750-e740-35f4-1cf6">4</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="eb68-a817-b1ae-92e9" name="Ranged" hidden="false" targetId="15d3-b3f8-98ef-48bc" type="rule"/>
+            <infoLink id="4cdf-d59c-c42d-0a09" name="Force" hidden="false" targetId="8373-ff2e-7769-c5a7" type="rule"/>
+            <infoLink id="174a-43dd-0873-72ed" name="Force Ram (Spike)" hidden="false" targetId="c2f8-48d9-d6ed-1bdf" type="rule"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
@@ -1050,9 +1145,6 @@
     <rule id="e013-6944-6609-e65c" name="Arcantrik Turbine (Charge)" hidden="false">
       <description>This model gains +1 SPD for each Arc it is currently charged with.</description>
     </rule>
-    <rule id="403b-2f51-d670-cb59" name="Fury Reciprocator (Spike)" hidden="false">
-      <description>When you channel a Fury Cypher through this model, after the attack is resolved, this model can spike to return the Cypher card to your hand.</description>
-    </rule>
     <rule id="7e28-2524-d7db-abda" name="Fire &amp; Displace" hidden="false">
       <description>Immediately after resolving a ranged attack made by this model, this model can move up to 3&quot;.</description>
     </rule>
@@ -1092,17 +1184,8 @@
     <rule id="c56a-eb04-a80f-be7d" name="Spray" hidden="false">
       <description>This is a Spray Weapon.</description>
     </rule>
-    <rule id="5c5b-ce9c-65e9-1bb6" name="Mechanikal Optics (Charge)" hidden="false">
-      <description>While this model is charged, this weapon gains +4 RNG.</description>
-    </rule>
     <rule id="c2c4-1eac-f24e-09f5" name="Fire" hidden="false">
       <description>This weapon causes fire damage. A model hit by this weapon suffers the fire continuous effect.</description>
-    </rule>
-    <rule id="4b13-2e42-d9c4-4f2f" name="Arc Booster (Spike)" hidden="false">
-      <description>When attacking with this weapon, before making a damage roll, this model can spike to cause the target of the attack to suffer -1 ARM until the attack is resolved.</description>
-    </rule>
-    <rule id="18a0-5c55-a14a-519d" name="Neural Net" hidden="false">
-      <description>This model gains a cumulative +1 DEF bonus for each other friendly unit within 5&quot; , up to a bonus of +3.</description>
     </rule>
     <rule id="6e59-f079-4476-730f" name="Smart Lock (Charge)" hidden="false">
       <description>While charged, this model ignores cover when making a ranged attack.</description>
@@ -1155,20 +1238,8 @@
     <rule id="4339-3e50-7d6c-5e50" name="Repair (Action)" hidden="false">
       <description>This model can make a repair special action to repair a friendly model within 1&quot; of it. Roll three action dice. For each strike rolled, remove 1 damage point from the model being repaired.</description>
     </rule>
-    <rule id="3189-813b-6b69-49ec" name="Jump Jets (Spike)" hidden="false">
-      <description>Once per activation, this model can spike to gain +3 SPC and Flight until the end of its activation.</description>
-    </rule>
-    <rule id="1dbf-ada7-71d2-6c11" name="Thrusters (Charge)" hidden="false">
-      <description>While charged, this model ignores movement penalties for rough terrain. Additionally, for each Arc this model is charged with, it gains +1 DEF.</description>
-    </rule>
     <rule id="067d-b201-437d-8185" name="Advanced Optics" hidden="false">
       <description>This model&apos;s ranged weapons gain +2 RNG.</description>
-    </rule>
-    <rule id="8d84-efa6-1ae3-a78b" name="Bomber" hidden="false">
-      <description>This model gains +1 action die on attack rolls with explosion weapons. Additionally, when this model makes an attack with an explosion weapon while it has Flight, immediately after the attack is resolved, this model can move up to 2&quot;.</description>
-    </rule>
-    <rule id="af3d-83e5-57d5-14c6" name="Explosive Collapse" hidden="false">
-      <description>If this weapon targets and destroys an enemy model, other models within 2&quot; of the model targeted suffer a POW 4 damage roll.</description>
     </rule>
     <rule id="058b-f612-39f3-2bd6" name="Jump Start (Spike)" hidden="false">
       <description>During its activation, this model can spike to remove an activation token from a friendly warjack within 10&quot; of it.</description>
@@ -1199,9 +1270,6 @@
     </rule>
     <rule id="4769-9fbb-0de5-9570" name="Psycho Relay" hidden="false">
       <description>While this unit is in play, you can have up to six Cypher cards in your hand at any time.</description>
-    </rule>
-    <rule id="4c2b-8ff6-dbbb-8525" name="Maelstrom Activator (Spike)" hidden="false">
-      <description>During this unit&apos;s activation, immediately after completing its attacks this model can spike to make one additional attack with each of its weapons.</description>
     </rule>
     <rule id="468a-cdd0-c1f0-4d47" name="Attack Mode (Arclock Pistol)" hidden="false">
       <description>Each time this weapon is used to make an attack, choose one of the following special rules:
@@ -1248,14 +1316,8 @@
     <rule id="92ca-26e8-fd63-05ce" name="Winch" hidden="false">
       <description>When this weapon damages an enemy model with an equal or smaller base, immediately after the attack is resolved, the damage model can be moved directly toward this model unit it contacts a model, an obstacle, or structure.</description>
     </rule>
-    <rule id="5e13-0046-6809-c381" name="Rapid Strike" hidden="false">
-      <description>When this model attacks during its activation, it can make one additional melee atack with each of its melee weapons.</description>
-    </rule>
     <rule id="4a62-dd5f-b896-d12c" name="Armor Piercing" hidden="false">
       <description>When resolving a damage roll for an attack made with this weapon, reduce the target&apos;s ARM by 1.</description>
-    </rule>
-    <rule id="fbcf-7d2a-48f0-4286" name="Eruption" hidden="false">
-      <description>When this model chooses to use Eruption it makes its attacks during its activation. If it does so, all other models within 3&quot; of it each suffer a POW 3 explosion damage roll.</description>
     </rule>
     <rule id="87fe-98b8-3637-f640" name="Power Focus (Spike)" hidden="false">
       <description>Before this model attacks during it&apos;s activation, it can spike to use Power Foxus. This model can only attack with one of it&apos;s weapons that activation, but adds three POWER dice to attack rolls that activation. Additionally, this model can reroll it&apos;s attack rolls with the chosen weapon that activation. A roll can be rerolled once as a result of Power Focus.</description>
